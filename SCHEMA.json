@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sinica 1241 fixed transcription book schema, 1.0.0",
+  "type": "object",
+  "required": [
+    "dataset_id",
+    "version",
+    "title",
+    "quality",
+    "source",
+    "metrics",
+    "pages"
+  ],
+  "properties": {
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v?\\d+\\.\\d+\\.\\d+(?:[-+][A-Za-z0-9.-]+)?$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quality": {
+      "type": [
+        "string",
+        "object"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "object_url",
+        "manifest_url",
+        "shelfmark",
+        "edition",
+        "author_attribution"
+      ],
+      "properties": {
+        "object_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "manifest_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "shelfmark": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author_attribution": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "methods": {
+      "type": "object"
+    },
+    "position_convention": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "page_id",
+          "index",
+          "source_sha256",
+          "width",
+          "height",
+          "official_label",
+          "canvas_id",
+          "image_url",
+          "layout_note",
+          "units",
+          "uncertainties"
+        ],
+        "properties": {
+          "page_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z_][A-Za-z0-9_.-]*$"
+          },
+          "index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "official_label": {
+            "type": "string"
+          },
+          "canvas_id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "image_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "layout_note": {
+            "type": "string"
+          },
+          "layout_reviewed": {
+            "type": "boolean"
+          },
+          "layer_states": {
+            "type": "object"
+          },
+          "figure_description": {
+            "type": "string"
+          },
+          "units": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "layer",
+                "role",
+                "side",
+                "text",
+                "bbox"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z_][A-Za-z0-9_.-]*$"
+                },
+                "layer": {
+                  "const": "original-print"
+                },
+                "role": {
+                  "type": "string",
+                  "pattern": "^\\S+$"
+                },
+                "side": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "type": "string"
+                },
+                "bbox": {
+                  "type": "null"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "uncertainties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "unit_id",
+                "start",
+                "end",
+                "surface",
+                "reason",
+                "cause"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z_][A-Za-z0-9_.-]*$"
+                },
+                "unit_id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z_][A-Za-z0-9_.-]*$"
+                },
+                "start": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "end": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 0
+                },
+                "surface": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "cause": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "extent": {
+                  "enum": [
+                    "known",
+                    "unknown",
+                    "located-unit"
+                  ]
+                },
+                "candidates": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "note": {
+                  "type": "string"
+                },
+                "position_note": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

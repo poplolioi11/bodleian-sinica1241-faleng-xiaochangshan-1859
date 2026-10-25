@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh-Hant">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>論發冷小腸疝兩症</title>
+        <author role="historical-author-attribution">Serica 書目歸於 J. G. Kerr（嘉約翰，1824–1901）；卷首未見作者署名。</author>
+        <respStmt>
+          <resp>資料整理與編碼</resp>
+          <name>poplolioi11</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>0.1.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>poplolioi11</publisher>
+        <idno type="dataset-id">OX-SINICA1241</idno>
+        <idno type="DOI">10.5281/zenodo.23636109</idno>
+        <availability>
+          <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>論發冷小腸疝兩症</title>
+          <author>Serica 書目歸於 J. G. Kerr（嘉約翰，1824–1901）；卷首未見作者署名。</author>
+          <idno type="shelfmark">Bodleian Library Sinica 1241</idno>
+          <note type="edition">咸豐九年（1859）博濟醫局刊本；廣州地點依書目。</note>
+          <ref target="https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/">館方底本</ref>
+          <ref target="https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json">館方IIIF manifest</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>品質狀態：完整原印文字層初錄；未獨立影像校讀，未經人類雙校、專家審定或同儕審查。。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
+          <p n="declared-methods">{"detailed_workflow_public": false, "expert_review": "not-run", "human_double_collation": "not-run", "independent_image_collation": "not-run in this fixed version", "initial_image_reading": "Gemini gemini-3.8-flash-high，兩個分開範圍的影像初錄工作；主代理全幅版式檢查及原印層範圍整理。", "peer_review": "not-run", "private_witnesses_and_guard_audit_preserved": true, "punctuation": "原刻點形以頓號編碼；不將數位標點形狀等同原刻點形。"}</p>
+        </interpretation>
+        <normalization>
+          <p>保留固定JSON內每unit的精確字串及順序；原刻點號以頓號表示。Unicode字元不等同原形摹本。疑字座標以Unicode碼點0起半開區間表示，詳uncertainties.json。</p>
+          <p n="position-convention">疑字 start/end 為 Unicode 碼點 0 起算半開區間 [start,end)；本版疑讀以整單位範圍標記。</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c01">
+      <desc>Upper cover</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/e9e2221c-a42e-4291-95ef-0f389f4dfe35/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:a4b03ca6d61ace846102f6c5327762444bcfcf02b03673e11cd9cb1fe78b9d49</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/e9e2221c-a42e-4291-95ef-0f389f4dfe35.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c02">
+      <desc>Inside upper cover and p. [1]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/249b5727-15cb-4406-8ab8-9439ed30021d/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:444906991f191ab0e8b747b4b7bad9e81f4f2adcc03916407589aee1c7b865ce</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/249b5727-15cb-4406-8ab8-9439ed30021d.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c03">
+      <desc>pp. [2]-[3]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/d1e8b916-8bb7-4574-aeb5-50094cafa5ae/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c04">
+      <desc>pp. [4]-[5]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c05">
+      <desc>pp. [6]-[7]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/219be7e7-1d08-4961-8dac-36fd8aeb3888/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c06">
+      <desc>pp. [8]-[9]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/64ab54b0-ee9f-4865-b17f-b0728d90030a/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c07">
+      <desc>pp. [10]-[11]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/07855068-9f44-4ce8-8494-fc635975ffd0/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c08">
+      <desc>pp. [12]-[13]</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/c8f5b06a-3698-49b3-ad38-c0d552114c15/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c09">
+      <desc>p. [14] and inside lower cover</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:781801988471ef5284ddb36409c96f5d0fb7a6033d700f04ef3f5e45fcd89bc3</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0.json</note>
+    </surface>
+    <surface ulx="0" uly="0" lrx="2200" lry="2025" xml:id="surface-c10">
+      <desc>Lower cover</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/a77313d2-5533-4c6e-9aad-0c3f9f83c6fc/full/2200,/0/default.jpg" width="2200px" height="2025px"/>
+      <note type="source-image-sha256">SHA-256:8a24ffe3d6aedf94dac8cd37577864a9b4217e61de4c84bed33351490f2c375f</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/a77313d2-5533-4c6e-9aad-0c3f9f83c6fc.json</note>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="source-image" n="Upper cover" facs="#surface-c01" xml:id="c01">
+        <note type="layout">外封面；展覽貼簽、手寫館藏記號不屬本次原作印字層。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{}</note>
+      </div>
+      <div type="source-image" n="Inside upper cover and p. [1]" facs="#surface-c02" xml:id="c02">
+        <note type="layout">左面為原刊扉頁、題名與刊記；右面封裡空白。後加英文字與手寫年份不轉錄。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="title" n="left" facs="#surface-c02" xml:id="c02-L01">咸豐九年新鍥</ab>
+        <ab type="title" n="left" facs="#surface-c02" xml:id="c02-L02">論發冷小腸疝兩症</ab>
+        <ab type="title" n="left" facs="#surface-c02" xml:id="c02-L03">博濟醫局藏板</ab>
+        <note type="transcription-uncertainty" target="#c02-L01" corresp="uncertainties.json#c02-controller-unc" xml:id="c02-controller-unc">{"candidates": ["鍥", "鐫"], "cause": "reading-unresolved", "end": 6, "extent": "located-unit", "id": "c02-controller-unc", "position_note": "整單位疑讀；非逐字位置認證。", "reason": "刊年後末字的金旁右部須進一步回圖核實；保留初錄讀法。", "start": 0, "surface": "咸豐九年新鍥", "unit_id": "c02-L01"}</note>
+      </div>
+      <div type="source-image" n="pp. [2]-[3]" facs="#surface-c03" xml:id="c03">
+        <note type="layout">右面為扉頁背面透印及藏章，不重複錄透印；左面宗教前言起首，右側近裝訂處有局部印墨與遮邊。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L01">嘗思天道福善禍淫、疾病死亡、所以報惡</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L02">者也、初天地闢時、亞當夏娃二人違</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L03">天父命、食禁果、罪惡由此始、厥後苗裔因</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L04">有罪惡、既有罪惡、當受懲罰、　　天父特</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L05">降以死亡、疾病、懲惡罰罪、使人悔改、此意、</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L06">非無足據、昔保羅曰、且以一人在世有罪、</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L07">因罪而死、又曰、罪惡之償値、乃死、蓋禍難</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L08">由於罪惡、然罪惡之報、不徒在於今生、更</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L09">在於世界末日、故見人有禍難、在己貴以</ab>
+        <note type="transcription-uncertainty" target="#c03-L07" corresp="uncertainties.json#c03-unc-01" xml:id="c03-unc-01">{"candidates": ["乃", "亡"], "cause": "reading-unresolved", "end": 20, "extent": "located-unit", "id": "c03-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "字形起筆為横折彎撇，無上橫點，筆勢作木刻'乃'字；文意對應新約聖經羅馬書6:23（罪惡之償値乃死/工價乃是死），與本頁第1欄'死亡'之'亡'字（起筆有清晰橫點）形體顯異。", "start": 0, "surface": "因罪而死、又曰、罪惡之償値、乃死、蓋禍難", "unit_id": "c03-L07"}</note>
+        <note type="transcription-uncertainty" target="#c03-L01" corresp="uncertainties.json#c03-controller-unc" xml:id="c03-controller-unc">{"candidates": ["嘗思", "嘗聞"], "cause": "reading-unresolved", "end": 18, "extent": "located-unit", "id": "c03-controller-unc", "position_note": "整單位疑讀；非逐字位置認證。", "reason": "近裝訂處起首第二字印墨及遮邊不清，須高解析回圖。", "start": 0, "surface": "嘗思天道福善禍淫、疾病死亡、所以報惡", "unit_id": "c03-L01"}</note>
+      </div>
+      <div type="source-image" n="pp. [4]-[5]" facs="#surface-c04" xml:id="c04">
+        <note type="layout">右、左兩面連續宗教前言；版心葉碼與正文分列。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R01">死亡自省、昔耶穌誨耶路撒冷人曰、爾曹</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R02">不悔改、亦必死亡、可見惡必受罰、當悔改</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R03">求免、況死後永苦、比生前重罰尤慘、勿謂</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R04">天堂地獄之說爲無稽也、近世風俗、人心</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R05">愈降愈下、故兵燹水旱、瘟疫疾病、無地無</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R06">之、諸禍中、恆多者惟疾病、顯見者亦惟疾</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R07">病、如貪花柳者、有疳疔麻瘋患、飲酒食洋</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R08">煙者、有損身致病患、好勇鬪狠者、有刀傷</ab>
+        <ab type="preface" n="right" facs="#surface-c04" xml:id="c04-R09">患、此種病患、皆罪所當得、外此百般病患、</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L01">雖良民亦有不免者、推其原、皆因初世犯</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L02">罪而起、使初世遵　　天父命、不食禁果、</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L03">便全善無惡、不至貽累後世艱苦也、我輩</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L04">同生覆載內、有時歷水火而得拯救、染疾</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L05">病而得調劑、皆　　天父鴻慈默祐、不忍</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L06">卽罰以死亡、令人悔改、故病者固不可自</ab>
+        <ab type="preface" n="left" facs="#surface-c04" xml:id="c04-L07">誇有福、醫者亦不能自居有功也、</ab>
+        <ab type="folio" n="right" facs="#surface-c04" xml:id="c04-R-folio">一</ab>
+      </div>
+      <div type="source-image" n="pp. [6]-[7]" facs="#surface-c05" xml:id="c05">
+        <note type="layout">右面空白但有版心數字；左面〈論瘧症〉起首及小字註。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="folio" n="right" facs="#surface-c05" xml:id="c05-R-folio">二</ab>
+        <ab type="title" n="left" facs="#surface-c05" xml:id="c05-L01">論瘧症</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L02">瘧症俗名打擺子、病狀、先發寒、後發熱、至</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L03">汗出而病暫退、或每日一作、或間日一</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L04">作、或間兩日一作、患此症者、若不善爲調</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L05">治、久則形枯體瘦、氣餒力衰、甚至或變蠱</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L06">脹、或腹內脾肝體大異常、卽中土醫書所</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L07">謂、久瘧腹有痞塊、名爲瘧母是也、大抵此</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L08">症、秋天恆多、夏天亦不少、治法、最効是用</ab>
+        <ab type="body" n="left" facs="#surface-c05" xml:id="c05-L09">金雞納霜、日服四次、每次六厘、</ab>
+        <ab type="note" n="left" facs="#surface-c05" xml:id="c05-L09-N01">少則不効</ab>
+        <note type="transcription-uncertainty" target="#c05-L08" corresp="uncertainties.json#c05-unc-01" xml:id="c05-unc-01">{"candidates": ["効", "劾"], "cause": "reading-unresolved", "end": 20, "extent": "located-unit", "id": "c05-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "左旁從交，右旁從力，為'効'（效之異體），與次欄雙行夾註'少則不効'同字互證；非'劾'。", "start": 0, "surface": "症、秋天恆多、夏天亦不少、治法、最効是用", "unit_id": "c05-L08"}</note>
+        <note type="transcription-uncertainty" target="#c05-L09-N01" corresp="uncertainties.json#c05-unc-02" xml:id="c05-unc-02">{"candidates": ["効", "須"], "cause": "reading-unresolved", "end": 4, "extent": "located-unit", "id": "c05-unc-02", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "小字雙行註第4字，右旁為力，左旁為交，字義為金雞納霜服量若低於六厘則不生效力。", "start": 0, "surface": "少則不効", "unit_id": "c05-L09-N01"}</note>
+      </div>
+      <div type="source-image" n="pp. [8]-[9]" facs="#surface-c06" xml:id="c06">
+        <note type="layout">右、左兩面連續醫學正文，含服量與頻次；版心分列。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R01">預先五點鐘、每點鐘服一次、倘服了三次</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R02">病或速作、不必服第四次、因病未作則可</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R03">截、病旣作則不可截、或病者身體太弱、恐</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R04">或隨服隨嘔、宜每次服三厘、照期分兩日</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R05">服、旣截後、凡每日一作者、自病截日起、計</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R06">至第七日、恐或復發、是日宜預早服此藥</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R07">三四次、每次比前少些、自此服藥日起、又</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R08">計至七日、仍恐復發、照式服藥、直計至第</ab>
+        <ab type="body" n="right" facs="#surface-c06" xml:id="c06-R09">三四次之七日、仍須服藥、其間一日作者、</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L01">自病截前一日起計、每至十四日或復發</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L02">仍照式服藥以截之、又法、服信石酒一錢、</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L03">至一錢半、須於朝晨、及作冷前、每服一次、</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L04">亦可截、截後恐或復發、仍計七日之期以</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L05">截之、此二法、屢試屢驗、但截後覺口苦頭</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L06">疼、及各般身體不安、宜服輕瀉藥以鬆之、</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L07">自然全愈、此種瘧症、常有定期、西國人多</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L08">患此症、屢經細察、故知如此、愚見中土人</ab>
+        <ab type="body" n="left" facs="#surface-c06" xml:id="c06-L09">患此症者、亦覺愈後復發、恰照定期、特中</ab>
+        <ab type="folio" n="left" facs="#surface-c06" xml:id="c06-L-folio">二</ab>
+        <note type="transcription-uncertainty" target="#c06-L06" corresp="uncertainties.json#c06-unc-01" xml:id="c06-unc-01">{"candidates": ["安", "寧"], "cause": "reading-unresolved", "end": 19, "extent": "located-unit", "id": "c06-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "版面有橫向木紋擦損，字形頂部從宀，下部從女，與前字'不'連讀為'身體不安'。", "start": 0, "surface": "疼、及各般身體不安、宜服輕瀉藥以鬆之、", "unit_id": "c06-L06"}</note>
+        <note type="transcription-uncertainty" target="#c06-L08" corresp="uncertainties.json#c06-unc-02" xml:id="c06-unc-02">{"candidates": ["愚", "私"], "cause": "reading-unresolved", "end": 19, "extent": "located-unit", "id": "c06-unc-02", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "此字較欄內正文字體略小，嵌刻於第14字'此、'與第16字'見'之間，從禺從心，錄為'愚'，句讀為'愚見中土人'。", "start": 0, "surface": "患此症、屢經細察、故知如此、愚見中土人", "unit_id": "c06-L08"}</note>
+      </div>
+      <div type="source-image" n="pp. [10]-[11]" facs="#surface-c07" xml:id="c07">
+        <note type="layout">右、左兩面連續醫學正文，左面有價格與服次小註。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u01">土人習而不察、故以爲擺子、往來無定、歸</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u02">咎於醫藥寡効、及戒口不淸耳、茲特將醫</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u03">藥治法、詳晰並錄、俾知醫有妙藥、治有定</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u04">法、而着手生春焉、並附金雞納霜信石酒</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u05">製法於後、</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u06">金雞納霜、出自南亞美利駕、樹名金雞納</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u07">霜、乃其樹皮所出、西國藥肆、用價沽此</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u08">樹皮、昔時多是研末作散、或用煎湯、近</ab>
+        <ab type="body" n="right" facs="#surface-c07" xml:id="c07-u09">則多方泡製、得其樹皮之精漿、故名曰</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u10">霜、其價頗昂、現年比前數年、價平一半、</ab>
+        <ab type="note" n="left" facs="#surface-c07" xml:id="c07-u11">四大約換三</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u12">其性不寒不熱、色白、味苦、功力</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u13">全補、是治擺子第一妙藥也、平常發熱、</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u14">卽潮熱、於每日熱退時、服一二分、</ab>
+        <ab type="note" n="left" facs="#surface-c07" xml:id="c07-u15">兩次</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u16">極有應驗、又凡人不論甚麼病、後欠補、</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u17">及戒洋烟後、欠補、朝晚飯前、每服二厘、</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u18">可補元氣、戒洋烟藥丸斷不可少此一</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u19">味、河南鰲洲興盛行常有發兌、每樽</ab>
+        <ab type="body" n="left" facs="#surface-c07" xml:id="c07-u20">約八錢、價銀二員半、如買十樽、價銀二</ab>
+        <note type="transcription-uncertainty" target="#c07-u11" corresp="uncertainties.json#c07-unc-01" xml:id="c07-unc-01">{"candidates": ["四大約換三", "大約四換三"], "cause": "reading-unresolved", "end": 5, "extent": "located-unit", "id": "c07-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "左半頁第二欄頂端小字夾註，掛接於正文「價平一半、」之後。五字字形清晰可辨為『四』、『大』、『約』、『換』、『三』。因字體微縮，若依單欄由上而下排印視為『四大約換三』；若依雙行排布（右行大約、左行四換三，或右行四大約、左行換三）則讀為『大約四換三』。錄為『四大約換三』，候選『大約四換三』。", "start": 0, "surface": "四大約換三", "unit_id": "c07-u11"}</note>
+        <note type="transcription-uncertainty" target="#c07-u15" corresp="uncertainties.json#c07-unc-02" xml:id="c07-unc-02">{"candidates": ["兩次"], "cause": "reading-unresolved", "end": 2, "extent": "located-unit", "id": "c07-unc-02", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "左半頁第四欄下部雙行小註，右行「兩」、左行「次」，按由右向左直行讀序掛接於「服一二分、」之後，合成「兩次」。", "start": 0, "surface": "兩次", "unit_id": "c07-u15"}</note>
+      </div>
+      <div type="source-image" n="pp. [12]-[13]" facs="#surface-c08" xml:id="c08">
+        <note type="layout">右面藥物製法及〈論小腸疝症〉起首，左面續文；配方小註、題名及版心另列。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <ab type="folio" n="right" facs="#surface-c08" xml:id="c08-u01">三</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u02">十員、封密貯好、雖久可用、</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u03">信石酒</ab>
+        <ab type="note" n="right" facs="#surface-c08" xml:id="c08-u04">信石三厘　白者佳</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u05">濃酒二錢</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u06">滾水一兩四錢</ab>
+        <ab type="note" n="right" facs="#surface-c08" xml:id="c08-u07">共製爲酒功力全補</ab>
+        <ab type="title" n="right" facs="#surface-c08" xml:id="c08-u08">　論小腸疝症</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u09">小腸疝、乃小腸離了本位、從肚腹軟弱處</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u10">偪出、或在臍、或在左右大腿與肚腹相連</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u11">處、或在腎囊、但在腎囊者恆多、初起時小、</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u12">愈久愈大、有歷年後、大如人頭者、其故或</ab>
+        <ab type="body" n="right" facs="#surface-c08" xml:id="c08-u13">因大力欬嗽、或因大小便出力過多、或因</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u14">提重物所傷、治法不須服藥、病者宜高肩</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u15">捲腿而卧、不使患處緊掣、醫者或以指、或</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u16">以手心送入、外用小腸夾緊壓、長久勿鬆、</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u17">年少者一年後不再發、不須更夾、倘常夾</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u18">或嫌疲苦、或有微痛、用藥酒擦、臨夜睡時</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u19">鬆下、此夾、朝來夾番、纔起因起立、不夾、恐</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u20">小腸復墜、至若小腸有時不能送還本位、</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u21">蓋因筋帶緊勒小腸所出之路、血不通行、</ab>
+        <ab type="body" n="left" facs="#surface-c08" xml:id="c08-u22">痛關生死、治法雖是大費工夫、仍須用夾、</ab>
+        <note type="transcription-uncertainty" target="#c08-u04" corresp="uncertainties.json#c08-unc-01" xml:id="c08-unc-01">{"candidates": ["信石三厘　白者佳"], "cause": "reading-unresolved", "end": 8, "extent": "located-unit", "id": "c08-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "右半頁第二欄小字雙行註，掛接於「信石酒」下方，右行「信石三厘」、左行「白者佳」，中間以全形空格區隔雙行。", "start": 0, "surface": "信石三厘　白者佳", "unit_id": "c08-u04"}</note>
+        <note type="transcription-uncertainty" target="#c08-u07" corresp="uncertainties.json#c08-unc-02" xml:id="c08-unc-02">{"candidates": ["共製爲酒功力全補"], "cause": "reading-unresolved", "end": 8, "extent": "located-unit", "id": "c08-unc-02", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "右半頁第三欄小字雙行註，掛接於「滾水一兩四錢」下方，右行「共製爲酒」、左行「功力全補」，按直行右先左後順序錄入。", "start": 0, "surface": "共製爲酒功力全補", "unit_id": "c08-u07"}</note>
+        <note type="transcription-uncertainty" target="#c08-u19" corresp="uncertainties.json#c08-controller-unc" xml:id="c08-controller-unc">{"candidates": [], "cause": "reading-unresolved", "end": 21, "extent": "located-unit", "id": "c08-controller-unc", "position_note": "整單位疑讀；非逐字位置認證。", "reason": "夾帶使用說明一欄中央有連續疑讀，初錄字序未定。", "start": 0, "surface": "鬆下、此夾、朝來夾番、纔起因起立、不夾、恐", "unit_id": "c08-u19"}</note>
+      </div>
+      <div type="source-image" n="p. [14] and inside lower cover" facs="#surface-c09" xml:id="c09">
+        <note type="layout">右面正文末段、圖題及一幅疝帶線圖；左面封裡空白。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "complete"}</note>
+        <note type="modern-figure-description">現代描述：一個橢圓環帶狀疝帶線圖，前部有扣合與壓墊細節。僅描述及轉錄圖題；未編碼比例、幾何、材質或機械效能。</note>
+        <ab type="folio" n="right" facs="#surface-c09" xml:id="c09-u01">四</ab>
+        <ab type="body" n="right" facs="#surface-c09" xml:id="c09-u02">夾住、夾之大小、須量人之肥瘦、恰合爲宜、</ab>
+        <ab type="body" n="right" facs="#surface-c09" xml:id="c09-u03">愚見中土人醫此症、止用湯藥、偶可止痛、</ab>
+        <ab type="body" n="right" facs="#surface-c09" xml:id="c09-u04">而不能令小腸送還本位、曷不令巧匠、照</ab>
+        <ab type="body" n="right" facs="#surface-c09" xml:id="c09-u05">式仿造鋼夾、依法治之、乃爲有益也、並附</ab>
+        <ab type="body" n="right" facs="#surface-c09" xml:id="c09-u06">鋼夾圖於後、</ab>
+        <ab type="figure-label" n="right" facs="#surface-c09" xml:id="c09-u07">治小腸疝偏右鋼夾圖</ab>
+        <note type="transcription-uncertainty" target="#c09-u03" corresp="uncertainties.json#c09-unc-01" xml:id="c09-unc-01">{"candidates": ["愚"], "cause": "reading-unresolved", "end": 19, "extent": "located-unit", "id": "c09-unc-01", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "首字「愚」原刻字形明顯微縮偏書，屬作者行文之謙稱小字，與次字「見」合成「愚見」，為正文語義成分，錄入正文層。", "start": 0, "surface": "愚見中土人醫此症、止用湯藥、偶可止痛、", "unit_id": "c09-u03"}</note>
+        <note type="transcription-uncertainty" target="#c09-u04" corresp="uncertainties.json#c09-unc-02" xml:id="c09-unc-02">{"candidates": ["令", "合"], "cause": "reading-unresolved", "end": 18, "extent": "located-unit", "id": "c09-unc-02", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "字形上為「人」、中橫、下為「卩」，結構與同欄第 4 字「令」完全相符，文意為「曷不令巧匠」（為何不吩咐能工巧匠），形近「合」，依字形與語義審定為「令」。", "start": 0, "surface": "而不能令小腸送還本位、曷不令巧匠、照", "unit_id": "c09-u04"}</note>
+        <note type="transcription-uncertainty" target="#c09-u07" corresp="uncertainties.json#c09-unc-03" xml:id="c09-unc-03">{"candidates": ["小腸疝偏右鋼夾圖"], "cause": "reading-unresolved", "end": 9, "extent": "located-unit", "id": "c09-unc-03", "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。", "reason": "插圖上方文字為單行橫書，依傳統漢字橫額自右至左閱讀方向錄為「小腸疝偏右鋼夾圖」。", "start": 0, "surface": "治小腸疝偏右鋼夾圖", "unit_id": "c09-u07"}</note>
+      </div>
+      <div type="source-image" n="Lower cover" facs="#surface-c10" xml:id="c10">
+        <note type="layout">外封底無原作印字；紙面痕跡不當作未讀正文。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{}</note>
+      </div>
+    </body>
+  </text>
+</TEI>

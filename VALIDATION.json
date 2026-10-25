@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "scope": "format, fixed-data equivalence and source linkage only; not reading accuracy",
+  "checks": {
+    "book-json-schema": "passed",
+    "fixed-book-full-readback": "passed",
+    "source-full-readback": "passed",
+    "txt-exact-text-order": "passed",
+    "tei-exact-text-order": "passed",
+    "uncertainty-codepoint-positions": "passed",
+    "unique-ids": "passed",
+    "source-hash-dimensions-urls": "passed",
+    "xml-dtd-entity-prohibition": "passed",
+    "tei-p5-relaxng": "passed",
+    "cff-full-schema": "passed",
+    "public-whitelist-and-file-checksums": "passed"
+  },
+  "counts": {
+    "images": 10,
+    "units": 108,
+    "unicode_code_points": 1692,
+    "uncertainties": 15
+  },
+  "schemas": {
+    "book": {
+      "file": "SCHEMA.json",
+      "sha256": "c6062c4b118750b2809e294da3ddd78592691514e07419ead83c9a1a62a14da8",
+      "dialect": "https://json-schema.org/draft/2020-12/schema"
+    },
+    "tei": {
+      "url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng",
+      "version": "4.12.0",
+      "sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48"
+    },
+    "cff": {
+      "url": "https://citation-file-format.github.io/1.2.0/schema.json",
+      "version": "1.2.0",
+      "sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b"
+    }
+  },
+  "input_sha256": {
+    "book": "e299c34c8823edbd87fe2dcf553ed04dd49c44f9e83f995eb6eee5828e6d2f07",
+    "sources": "85670eb059fb394aeb53a8c4e3f675928c3c859e6462e9a343b7170d9ac4a028"
+  },
+  "quality": "完整原印文字層初錄；未獨立影像校讀，未經人類雙校、專家審定或同儕審查。",
+  "human_double_proofreading": "not-performed",
+  "expert_certification": "not-performed",
+  "peer_review": "not-performed",
+  "doi_status_at_build": "reserved-unconfirmed-publication",
+  "runtime": {
+    "lxml": "6.1.3",
+    "PyYAML": "6.0.3",
+    "jsonschema": "4.26.0"
+  }
+}

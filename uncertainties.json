@@ -1,0 +1,239 @@
+{
+  "dataset_id": "OX-SINICA1241",
+  "version": "0.1.0",
+  "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
+  "items": [
+    {
+      "page_id": "c02",
+      "id": "c02-controller-unc",
+      "unit_id": "c02-L01",
+      "start": 0,
+      "end": 6,
+      "surface": "咸豐九年新鍥",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "鍥",
+        "鐫"
+      ],
+      "reason": "刊年後末字的金旁右部須進一步回圖核實；保留初錄讀法。",
+      "position_note": "整單位疑讀；非逐字位置認證。"
+    },
+    {
+      "page_id": "c03",
+      "id": "c03-unc-01",
+      "unit_id": "c03-L07",
+      "start": 0,
+      "end": 20,
+      "surface": "因罪而死、又曰、罪惡之償値、乃死、蓋禍難",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "乃",
+        "亡"
+      ],
+      "reason": "字形起筆為横折彎撇，無上橫點，筆勢作木刻'乃'字；文意對應新約聖經羅馬書6:23（罪惡之償値乃死/工價乃是死），與本頁第1欄'死亡'之'亡'字（起筆有清晰橫點）形體顯異。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c03",
+      "id": "c03-controller-unc",
+      "unit_id": "c03-L01",
+      "start": 0,
+      "end": 18,
+      "surface": "嘗思天道福善禍淫、疾病死亡、所以報惡",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "嘗思",
+        "嘗聞"
+      ],
+      "reason": "近裝訂處起首第二字印墨及遮邊不清，須高解析回圖。",
+      "position_note": "整單位疑讀；非逐字位置認證。"
+    },
+    {
+      "page_id": "c05",
+      "id": "c05-unc-01",
+      "unit_id": "c05-L08",
+      "start": 0,
+      "end": 20,
+      "surface": "症、秋天恆多、夏天亦不少、治法、最効是用",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "効",
+        "劾"
+      ],
+      "reason": "左旁從交，右旁從力，為'効'（效之異體），與次欄雙行夾註'少則不効'同字互證；非'劾'。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c05",
+      "id": "c05-unc-02",
+      "unit_id": "c05-L09-N01",
+      "start": 0,
+      "end": 4,
+      "surface": "少則不効",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "効",
+        "須"
+      ],
+      "reason": "小字雙行註第4字，右旁為力，左旁為交，字義為金雞納霜服量若低於六厘則不生效力。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c06",
+      "id": "c06-unc-01",
+      "unit_id": "c06-L06",
+      "start": 0,
+      "end": 19,
+      "surface": "疼、及各般身體不安、宜服輕瀉藥以鬆之、",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "安",
+        "寧"
+      ],
+      "reason": "版面有橫向木紋擦損，字形頂部從宀，下部從女，與前字'不'連讀為'身體不安'。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c06",
+      "id": "c06-unc-02",
+      "unit_id": "c06-L08",
+      "start": 0,
+      "end": 19,
+      "surface": "患此症、屢經細察、故知如此、愚見中土人",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "愚",
+        "私"
+      ],
+      "reason": "此字較欄內正文字體略小，嵌刻於第14字'此、'與第16字'見'之間，從禺從心，錄為'愚'，句讀為'愚見中土人'。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c07",
+      "id": "c07-unc-01",
+      "unit_id": "c07-u11",
+      "start": 0,
+      "end": 5,
+      "surface": "四大約換三",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "四大約換三",
+        "大約四換三"
+      ],
+      "reason": "左半頁第二欄頂端小字夾註，掛接於正文「價平一半、」之後。五字字形清晰可辨為『四』、『大』、『約』、『換』、『三』。因字體微縮，若依單欄由上而下排印視為『四大約換三』；若依雙行排布（右行大約、左行四換三，或右行四大約、左行換三）則讀為『大約四換三』。錄為『四大約換三』，候選『大約四換三』。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c07",
+      "id": "c07-unc-02",
+      "unit_id": "c07-u15",
+      "start": 0,
+      "end": 2,
+      "surface": "兩次",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "兩次"
+      ],
+      "reason": "左半頁第四欄下部雙行小註，右行「兩」、左行「次」，按由右向左直行讀序掛接於「服一二分、」之後，合成「兩次」。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c08",
+      "id": "c08-unc-01",
+      "unit_id": "c08-u04",
+      "start": 0,
+      "end": 8,
+      "surface": "信石三厘　白者佳",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "信石三厘　白者佳"
+      ],
+      "reason": "右半頁第二欄小字雙行註，掛接於「信石酒」下方，右行「信石三厘」、左行「白者佳」，中間以全形空格區隔雙行。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c08",
+      "id": "c08-unc-02",
+      "unit_id": "c08-u07",
+      "start": 0,
+      "end": 8,
+      "surface": "共製爲酒功力全補",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "共製爲酒功力全補"
+      ],
+      "reason": "右半頁第三欄小字雙行註，掛接於「滾水一兩四錢」下方，右行「共製爲酒」、左行「功力全補」，按直行右先左後順序錄入。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c08",
+      "id": "c08-controller-unc",
+      "unit_id": "c08-u19",
+      "start": 0,
+      "end": 21,
+      "surface": "鬆下、此夾、朝來夾番、纔起因起立、不夾、恐",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [],
+      "reason": "夾帶使用說明一欄中央有連續疑讀，初錄字序未定。",
+      "position_note": "整單位疑讀；非逐字位置認證。"
+    },
+    {
+      "page_id": "c09",
+      "id": "c09-unc-01",
+      "unit_id": "c09-u03",
+      "start": 0,
+      "end": 19,
+      "surface": "愚見中土人醫此症、止用湯藥、偶可止痛、",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "愚"
+      ],
+      "reason": "首字「愚」原刻字形明顯微縮偏書，屬作者行文之謙稱小字，與次字「見」合成「愚見」，為正文語義成分，錄入正文層。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c09",
+      "id": "c09-unc-02",
+      "unit_id": "c09-u04",
+      "start": 0,
+      "end": 18,
+      "surface": "而不能令小腸送還本位、曷不令巧匠、照",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "令",
+        "合"
+      ],
+      "reason": "字形上為「人」、中橫、下為「卩」，結構與同欄第 4 字「令」完全相符，文意為「曷不令巧匠」（為何不吩咐能工巧匠），形近「合」，依字形與語義審定為「令」。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    },
+    {
+      "page_id": "c09",
+      "id": "c09-unc-03",
+      "unit_id": "c09-u07",
+      "start": 0,
+      "end": 9,
+      "surface": "治小腸疝偏右鋼夾圖",
+      "extent": "located-unit",
+      "cause": "reading-unresolved",
+      "candidates": [
+        "小腸疝偏右鋼夾圖"
+      ],
+      "reason": "插圖上方文字為單行橫書，依傳統漢字橫額自右至左閱讀方向錄為「小腸疝偏右鋼夾圖」。",
+      "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+    }
+  ]
+}

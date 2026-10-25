@@ -1,0 +1,15 @@
+CHANGELOG.md
+CITATION.cff
+LICENSE.md
+PROVENANCE.md
+PUBLIC-FILES.txt
+README.md
+RIGHTS.md
+SCHEMA.json
+SHA256SUMS
+VALIDATION.json
+book.json
+book.tei.xml
+book.txt
+source-pages.json
+uncertainties.json

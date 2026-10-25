@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+type: dataset
+message: 請引用實際使用的固定版本，並附書面定位與館方影像。 本版為完整初錄／未經獨立覆核，未經人類雙校、專家審定或同儕審查。 歷史作者、館藏底本與本次整理應分開引用。
+title: 《論發冷小腸疝兩症》：1859 年博濟醫局本初錄資料集（完整初錄／未經獨立覆核）
+authors:
+- name: poplolioi11
+  website: https://github.com/poplolioi11
+version: 0.1.0
+url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859
+license-url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/v0.1.0/RIGHTS.md
+abstract: 依牛津大學 Bodleian Libraries 所藏 Sinica 1241，整理1859年博濟醫局刊本 《論發冷小腸疝兩症》。Serica
+  將作品歸於 J. G. Kerr（嘉約翰）。 v0.1.0 為 AI 輔助完整初錄，涵蓋12個原印文字面與全篇宗教前言； 一幅疝帶線圖僅保留文字及描述，未重製幾何圖形。
+  提供 JSON、TXT、TEI XML、原頁定位及疑字，尚未獨立覆核。 原文不新增使用限制；具有著作權的自有說明採 CC BY 4.0。 館方掃描依其獨立條款，未收入公開包。
+keywords:
+- 論發冷小腸疝兩症
+- Sinica 1241
+- 嘉約翰
+- J. G. Kerr
+- 博濟醫局
+- '1859'
+- 醫學史
+- digital humanities
+- initial transcription
+date-released: '2026-10-25'
+doi: 10.5281/zenodo.23636109

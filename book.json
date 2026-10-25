@@ -1,0 +1,1298 @@
+{
+  "dataset_id": "OX-SINICA1241",
+  "version": "0.1.0",
+  "title": "論發冷小腸疝兩症",
+  "quality": "完整原印文字層初錄；未獨立影像校讀，未經人類雙校、專家審定或同儕審查。",
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json",
+    "shelfmark": "Bodleian Library Sinica 1241",
+    "edition": "咸豐九年（1859）博濟醫局刊本；廣州地點依書目。",
+    "author_attribution": "Serica 書目歸於 J. G. Kerr（嘉約翰，1824–1901）；卷首未見作者署名。"
+  },
+  "methods": {
+    "initial_image_reading": "Gemini gemini-3.8-flash-high，兩個分開範圍的影像初錄工作；主代理全幅版式檢查及原印層範圍整理。",
+    "independent_image_collation": "not-run in this fixed version",
+    "human_double_collation": "not-run",
+    "expert_review": "not-run",
+    "peer_review": "not-run",
+    "punctuation": "原刻點形以頓號編碼；不將數位標點形狀等同原刻點形。",
+    "detailed_workflow_public": false,
+    "private_witnesses_and_guard_audit_preserved": true
+  },
+  "position_convention": "疑字 start/end 為 Unicode 碼點 0 起算半開區間 [start,end)；本版疑讀以整單位範圍標記。",
+  "metrics": {
+    "canvases": 10,
+    "visible_book_surfaces": 18,
+    "original_printed_faces": 12,
+    "units": 108,
+    "codepoints": 1692,
+    "uncertainty_records": 15,
+    "square_placeholders": 0
+  },
+  "pages": [
+    {
+      "page_id": "c01",
+      "index": 1,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "Upper cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e9e2221c-a42e-4291-95ef-0f389f4dfe35.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e9e2221c-a42e-4291-95ef-0f389f4dfe35/full/2200,/0/default.jpg",
+      "source_sha256": "a4b03ca6d61ace846102f6c5327762444bcfcf02b03673e11cd9cb1fe78b9d49",
+      "layout_note": "外封面；展覽貼簽、手寫館藏記號不屬本次原作印字層。",
+      "layout_reviewed": true,
+      "layer_states": {},
+      "units": [],
+      "uncertainties": []
+    },
+    {
+      "page_id": "c02",
+      "index": 2,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "Inside upper cover and p. [1]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/249b5727-15cb-4406-8ab8-9439ed30021d.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/249b5727-15cb-4406-8ab8-9439ed30021d/full/2200,/0/default.jpg",
+      "source_sha256": "444906991f191ab0e8b747b4b7bad9e81f4f2adcc03916407589aee1c7b865ce",
+      "layout_note": "左面為原刊扉頁、題名與刊記；右面封裡空白。後加英文字與手寫年份不轉錄。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c02-L01",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "咸豐九年新鍥",
+          "bbox": null
+        },
+        {
+          "id": "c02-L02",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "論發冷小腸疝兩症",
+          "bbox": null
+        },
+        {
+          "id": "c02-L03",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "博濟醫局藏板",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c02-controller-unc",
+          "unit_id": "c02-L01",
+          "start": 0,
+          "end": 6,
+          "surface": "咸豐九年新鍥",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "鍥",
+            "鐫"
+          ],
+          "reason": "刊年後末字的金旁右部須進一步回圖核實；保留初錄讀法。",
+          "position_note": "整單位疑讀；非逐字位置認證。"
+        }
+      ]
+    },
+    {
+      "page_id": "c03",
+      "index": 3,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [2]-[3]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d1e8b916-8bb7-4574-aeb5-50094cafa5ae/full/2200,/0/default.jpg",
+      "source_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "layout_note": "右面為扉頁背面透印及藏章，不重複錄透印；左面宗教前言起首，右側近裝訂處有局部印墨與遮邊。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c03-L01",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "嘗思天道福善禍淫、疾病死亡、所以報惡",
+          "bbox": null
+        },
+        {
+          "id": "c03-L02",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "者也、初天地闢時、亞當夏娃二人違",
+          "bbox": null
+        },
+        {
+          "id": "c03-L03",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "天父命、食禁果、罪惡由此始、厥後苗裔因",
+          "bbox": null
+        },
+        {
+          "id": "c03-L04",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "有罪惡、既有罪惡、當受懲罰、　　天父特",
+          "bbox": null
+        },
+        {
+          "id": "c03-L05",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "降以死亡、疾病、懲惡罰罪、使人悔改、此意、",
+          "bbox": null
+        },
+        {
+          "id": "c03-L06",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "非無足據、昔保羅曰、且以一人在世有罪、",
+          "bbox": null
+        },
+        {
+          "id": "c03-L07",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "因罪而死、又曰、罪惡之償値、乃死、蓋禍難",
+          "bbox": null
+        },
+        {
+          "id": "c03-L08",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "由於罪惡、然罪惡之報、不徒在於今生、更",
+          "bbox": null
+        },
+        {
+          "id": "c03-L09",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "在於世界末日、故見人有禍難、在己貴以",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c03-unc-01",
+          "unit_id": "c03-L07",
+          "start": 0,
+          "end": 20,
+          "surface": "因罪而死、又曰、罪惡之償値、乃死、蓋禍難",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "乃",
+            "亡"
+          ],
+          "reason": "字形起筆為横折彎撇，無上橫點，筆勢作木刻'乃'字；文意對應新約聖經羅馬書6:23（罪惡之償値乃死/工價乃是死），與本頁第1欄'死亡'之'亡'字（起筆有清晰橫點）形體顯異。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c03-controller-unc",
+          "unit_id": "c03-L01",
+          "start": 0,
+          "end": 18,
+          "surface": "嘗思天道福善禍淫、疾病死亡、所以報惡",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "嘗思",
+            "嘗聞"
+          ],
+          "reason": "近裝訂處起首第二字印墨及遮邊不清，須高解析回圖。",
+          "position_note": "整單位疑讀；非逐字位置認證。"
+        }
+      ]
+    },
+    {
+      "page_id": "c04",
+      "index": 4,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [4]-[5]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2/full/2200,/0/default.jpg",
+      "source_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "layout_note": "右、左兩面連續宗教前言；版心葉碼與正文分列。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c04-R01",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "死亡自省、昔耶穌誨耶路撒冷人曰、爾曹",
+          "bbox": null
+        },
+        {
+          "id": "c04-R02",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "不悔改、亦必死亡、可見惡必受罰、當悔改",
+          "bbox": null
+        },
+        {
+          "id": "c04-R03",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "求免、況死後永苦、比生前重罰尤慘、勿謂",
+          "bbox": null
+        },
+        {
+          "id": "c04-R04",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "天堂地獄之說爲無稽也、近世風俗、人心",
+          "bbox": null
+        },
+        {
+          "id": "c04-R05",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "愈降愈下、故兵燹水旱、瘟疫疾病、無地無",
+          "bbox": null
+        },
+        {
+          "id": "c04-R06",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "之、諸禍中、恆多者惟疾病、顯見者亦惟疾",
+          "bbox": null
+        },
+        {
+          "id": "c04-R07",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "病、如貪花柳者、有疳疔麻瘋患、飲酒食洋",
+          "bbox": null
+        },
+        {
+          "id": "c04-R08",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "煙者、有損身致病患、好勇鬪狠者、有刀傷",
+          "bbox": null
+        },
+        {
+          "id": "c04-R09",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "right",
+          "text": "患、此種病患、皆罪所當得、外此百般病患、",
+          "bbox": null
+        },
+        {
+          "id": "c04-L01",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "雖良民亦有不免者、推其原、皆因初世犯",
+          "bbox": null
+        },
+        {
+          "id": "c04-L02",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "罪而起、使初世遵　　天父命、不食禁果、",
+          "bbox": null
+        },
+        {
+          "id": "c04-L03",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "便全善無惡、不至貽累後世艱苦也、我輩",
+          "bbox": null
+        },
+        {
+          "id": "c04-L04",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "同生覆載內、有時歷水火而得拯救、染疾",
+          "bbox": null
+        },
+        {
+          "id": "c04-L05",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "病而得調劑、皆　　天父鴻慈默祐、不忍",
+          "bbox": null
+        },
+        {
+          "id": "c04-L06",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "卽罰以死亡、令人悔改、故病者固不可自",
+          "bbox": null
+        },
+        {
+          "id": "c04-L07",
+          "layer": "original-print",
+          "role": "preface",
+          "side": "left",
+          "text": "誇有福、醫者亦不能自居有功也、",
+          "bbox": null
+        },
+        {
+          "id": "c04-R-folio",
+          "layer": "original-print",
+          "role": "folio",
+          "side": "right",
+          "text": "一",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "c05",
+      "index": 5,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [6]-[7]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/219be7e7-1d08-4961-8dac-36fd8aeb3888/full/2200,/0/default.jpg",
+      "source_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "layout_note": "右面空白但有版心數字；左面〈論瘧症〉起首及小字註。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c05-R-folio",
+          "layer": "original-print",
+          "role": "folio",
+          "side": "right",
+          "text": "二",
+          "bbox": null
+        },
+        {
+          "id": "c05-L01",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "論瘧症",
+          "bbox": null
+        },
+        {
+          "id": "c05-L02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "瘧症俗名打擺子、病狀、先發寒、後發熱、至",
+          "bbox": null
+        },
+        {
+          "id": "c05-L03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "汗出而病暫退、或每日一作、或間日一",
+          "bbox": null
+        },
+        {
+          "id": "c05-L04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "作、或間兩日一作、患此症者、若不善爲調",
+          "bbox": null
+        },
+        {
+          "id": "c05-L05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "治、久則形枯體瘦、氣餒力衰、甚至或變蠱",
+          "bbox": null
+        },
+        {
+          "id": "c05-L06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "脹、或腹內脾肝體大異常、卽中土醫書所",
+          "bbox": null
+        },
+        {
+          "id": "c05-L07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "謂、久瘧腹有痞塊、名爲瘧母是也、大抵此",
+          "bbox": null
+        },
+        {
+          "id": "c05-L08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "症、秋天恆多、夏天亦不少、治法、最効是用",
+          "bbox": null
+        },
+        {
+          "id": "c05-L09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "金雞納霜、日服四次、每次六厘、",
+          "bbox": null
+        },
+        {
+          "id": "c05-L09-N01",
+          "layer": "original-print",
+          "role": "note",
+          "side": "left",
+          "text": "少則不効",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c05-unc-01",
+          "unit_id": "c05-L08",
+          "start": 0,
+          "end": 20,
+          "surface": "症、秋天恆多、夏天亦不少、治法、最効是用",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "効",
+            "劾"
+          ],
+          "reason": "左旁從交，右旁從力，為'効'（效之異體），與次欄雙行夾註'少則不効'同字互證；非'劾'。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c05-unc-02",
+          "unit_id": "c05-L09-N01",
+          "start": 0,
+          "end": 4,
+          "surface": "少則不効",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "効",
+            "須"
+          ],
+          "reason": "小字雙行註第4字，右旁為力，左旁為交，字義為金雞納霜服量若低於六厘則不生效力。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        }
+      ]
+    },
+    {
+      "page_id": "c06",
+      "index": 6,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [8]-[9]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/64ab54b0-ee9f-4865-b17f-b0728d90030a/full/2200,/0/default.jpg",
+      "source_sha256": "1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a",
+      "layout_note": "右、左兩面連續醫學正文，含服量與頻次；版心分列。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c06-R01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "預先五點鐘、每點鐘服一次、倘服了三次",
+          "bbox": null
+        },
+        {
+          "id": "c06-R02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "病或速作、不必服第四次、因病未作則可",
+          "bbox": null
+        },
+        {
+          "id": "c06-R03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "截、病旣作則不可截、或病者身體太弱、恐",
+          "bbox": null
+        },
+        {
+          "id": "c06-R04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "或隨服隨嘔、宜每次服三厘、照期分兩日",
+          "bbox": null
+        },
+        {
+          "id": "c06-R05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "服、旣截後、凡每日一作者、自病截日起、計",
+          "bbox": null
+        },
+        {
+          "id": "c06-R06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "至第七日、恐或復發、是日宜預早服此藥",
+          "bbox": null
+        },
+        {
+          "id": "c06-R07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "三四次、每次比前少些、自此服藥日起、又",
+          "bbox": null
+        },
+        {
+          "id": "c06-R08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "計至七日、仍恐復發、照式服藥、直計至第",
+          "bbox": null
+        },
+        {
+          "id": "c06-R09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "三四次之七日、仍須服藥、其間一日作者、",
+          "bbox": null
+        },
+        {
+          "id": "c06-L01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "自病截前一日起計、每至十四日或復發",
+          "bbox": null
+        },
+        {
+          "id": "c06-L02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "仍照式服藥以截之、又法、服信石酒一錢、",
+          "bbox": null
+        },
+        {
+          "id": "c06-L03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "至一錢半、須於朝晨、及作冷前、每服一次、",
+          "bbox": null
+        },
+        {
+          "id": "c06-L04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "亦可截、截後恐或復發、仍計七日之期以",
+          "bbox": null
+        },
+        {
+          "id": "c06-L05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "截之、此二法、屢試屢驗、但截後覺口苦頭",
+          "bbox": null
+        },
+        {
+          "id": "c06-L06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "疼、及各般身體不安、宜服輕瀉藥以鬆之、",
+          "bbox": null
+        },
+        {
+          "id": "c06-L07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "自然全愈、此種瘧症、常有定期、西國人多",
+          "bbox": null
+        },
+        {
+          "id": "c06-L08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "患此症、屢經細察、故知如此、愚見中土人",
+          "bbox": null
+        },
+        {
+          "id": "c06-L09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "患此症者、亦覺愈後復發、恰照定期、特中",
+          "bbox": null
+        },
+        {
+          "id": "c06-L-folio",
+          "layer": "original-print",
+          "role": "folio",
+          "side": "left",
+          "text": "二",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c06-unc-01",
+          "unit_id": "c06-L06",
+          "start": 0,
+          "end": 19,
+          "surface": "疼、及各般身體不安、宜服輕瀉藥以鬆之、",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "安",
+            "寧"
+          ],
+          "reason": "版面有橫向木紋擦損，字形頂部從宀，下部從女，與前字'不'連讀為'身體不安'。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c06-unc-02",
+          "unit_id": "c06-L08",
+          "start": 0,
+          "end": 19,
+          "surface": "患此症、屢經細察、故知如此、愚見中土人",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "愚",
+            "私"
+          ],
+          "reason": "此字較欄內正文字體略小，嵌刻於第14字'此、'與第16字'見'之間，從禺從心，錄為'愚'，句讀為'愚見中土人'。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        }
+      ]
+    },
+    {
+      "page_id": "c07",
+      "index": 7,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [10]-[11]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07855068-9f44-4ce8-8494-fc635975ffd0/full/2200,/0/default.jpg",
+      "source_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "layout_note": "右、左兩面連續醫學正文，左面有價格與服次小註。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c07-u01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "土人習而不察、故以爲擺子、往來無定、歸",
+          "bbox": null
+        },
+        {
+          "id": "c07-u02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "咎於醫藥寡効、及戒口不淸耳、茲特將醫",
+          "bbox": null
+        },
+        {
+          "id": "c07-u03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "藥治法、詳晰並錄、俾知醫有妙藥、治有定",
+          "bbox": null
+        },
+        {
+          "id": "c07-u04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "法、而着手生春焉、並附金雞納霜信石酒",
+          "bbox": null
+        },
+        {
+          "id": "c07-u05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "製法於後、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "金雞納霜、出自南亞美利駕、樹名金雞納",
+          "bbox": null
+        },
+        {
+          "id": "c07-u07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "霜、乃其樹皮所出、西國藥肆、用價沽此",
+          "bbox": null
+        },
+        {
+          "id": "c07-u08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "樹皮、昔時多是研末作散、或用煎湯、近",
+          "bbox": null
+        },
+        {
+          "id": "c07-u09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "則多方泡製、得其樹皮之精漿、故名曰",
+          "bbox": null
+        },
+        {
+          "id": "c07-u10",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "霜、其價頗昂、現年比前數年、價平一半、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u11",
+          "layer": "original-print",
+          "role": "note",
+          "side": "left",
+          "text": "四大約換三",
+          "bbox": null
+        },
+        {
+          "id": "c07-u12",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "其性不寒不熱、色白、味苦、功力",
+          "bbox": null
+        },
+        {
+          "id": "c07-u13",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "全補、是治擺子第一妙藥也、平常發熱、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u14",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "卽潮熱、於每日熱退時、服一二分、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u15",
+          "layer": "original-print",
+          "role": "note",
+          "side": "left",
+          "text": "兩次",
+          "bbox": null
+        },
+        {
+          "id": "c07-u16",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "極有應驗、又凡人不論甚麼病、後欠補、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u17",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "及戒洋烟後、欠補、朝晚飯前、每服二厘、",
+          "bbox": null
+        },
+        {
+          "id": "c07-u18",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "可補元氣、戒洋烟藥丸斷不可少此一",
+          "bbox": null
+        },
+        {
+          "id": "c07-u19",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "味、河南鰲洲興盛行常有發兌、每樽",
+          "bbox": null
+        },
+        {
+          "id": "c07-u20",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "約八錢、價銀二員半、如買十樽、價銀二",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c07-unc-01",
+          "unit_id": "c07-u11",
+          "start": 0,
+          "end": 5,
+          "surface": "四大約換三",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "四大約換三",
+            "大約四換三"
+          ],
+          "reason": "左半頁第二欄頂端小字夾註，掛接於正文「價平一半、」之後。五字字形清晰可辨為『四』、『大』、『約』、『換』、『三』。因字體微縮，若依單欄由上而下排印視為『四大約換三』；若依雙行排布（右行大約、左行四換三，或右行四大約、左行換三）則讀為『大約四換三』。錄為『四大約換三』，候選『大約四換三』。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c07-unc-02",
+          "unit_id": "c07-u15",
+          "start": 0,
+          "end": 2,
+          "surface": "兩次",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "兩次"
+          ],
+          "reason": "左半頁第四欄下部雙行小註，右行「兩」、左行「次」，按由右向左直行讀序掛接於「服一二分、」之後，合成「兩次」。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        }
+      ]
+    },
+    {
+      "page_id": "c08",
+      "index": 8,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "pp. [12]-[13]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c8f5b06a-3698-49b3-ad38-c0d552114c15/full/2200,/0/default.jpg",
+      "source_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "layout_note": "右面藥物製法及〈論小腸疝症〉起首，左面續文；配方小註、題名及版心另列。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c08-u01",
+          "layer": "original-print",
+          "role": "folio",
+          "side": "right",
+          "text": "三",
+          "bbox": null
+        },
+        {
+          "id": "c08-u02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "十員、封密貯好、雖久可用、",
+          "bbox": null
+        },
+        {
+          "id": "c08-u03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "信石酒",
+          "bbox": null
+        },
+        {
+          "id": "c08-u04",
+          "layer": "original-print",
+          "role": "note",
+          "side": "right",
+          "text": "信石三厘　白者佳",
+          "bbox": null
+        },
+        {
+          "id": "c08-u05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "濃酒二錢",
+          "bbox": null
+        },
+        {
+          "id": "c08-u06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "滾水一兩四錢",
+          "bbox": null
+        },
+        {
+          "id": "c08-u07",
+          "layer": "original-print",
+          "role": "note",
+          "side": "right",
+          "text": "共製爲酒功力全補",
+          "bbox": null
+        },
+        {
+          "id": "c08-u08",
+          "layer": "original-print",
+          "role": "title",
+          "side": "right",
+          "text": "　論小腸疝症",
+          "bbox": null
+        },
+        {
+          "id": "c08-u09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "小腸疝、乃小腸離了本位、從肚腹軟弱處",
+          "bbox": null
+        },
+        {
+          "id": "c08-u10",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "偪出、或在臍、或在左右大腿與肚腹相連",
+          "bbox": null
+        },
+        {
+          "id": "c08-u11",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "處、或在腎囊、但在腎囊者恆多、初起時小、",
+          "bbox": null
+        },
+        {
+          "id": "c08-u12",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "愈久愈大、有歷年後、大如人頭者、其故或",
+          "bbox": null
+        },
+        {
+          "id": "c08-u13",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "因大力欬嗽、或因大小便出力過多、或因",
+          "bbox": null
+        },
+        {
+          "id": "c08-u14",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "提重物所傷、治法不須服藥、病者宜高肩",
+          "bbox": null
+        },
+        {
+          "id": "c08-u15",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "捲腿而卧、不使患處緊掣、醫者或以指、或",
+          "bbox": null
+        },
+        {
+          "id": "c08-u16",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "以手心送入、外用小腸夾緊壓、長久勿鬆、",
+          "bbox": null
+        },
+        {
+          "id": "c08-u17",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "年少者一年後不再發、不須更夾、倘常夾",
+          "bbox": null
+        },
+        {
+          "id": "c08-u18",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "或嫌疲苦、或有微痛、用藥酒擦、臨夜睡時",
+          "bbox": null
+        },
+        {
+          "id": "c08-u19",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "鬆下、此夾、朝來夾番、纔起因起立、不夾、恐",
+          "bbox": null
+        },
+        {
+          "id": "c08-u20",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "小腸復墜、至若小腸有時不能送還本位、",
+          "bbox": null
+        },
+        {
+          "id": "c08-u21",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "蓋因筋帶緊勒小腸所出之路、血不通行、",
+          "bbox": null
+        },
+        {
+          "id": "c08-u22",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "痛關生死、治法雖是大費工夫、仍須用夾、",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c08-unc-01",
+          "unit_id": "c08-u04",
+          "start": 0,
+          "end": 8,
+          "surface": "信石三厘　白者佳",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "信石三厘　白者佳"
+          ],
+          "reason": "右半頁第二欄小字雙行註，掛接於「信石酒」下方，右行「信石三厘」、左行「白者佳」，中間以全形空格區隔雙行。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c08-unc-02",
+          "unit_id": "c08-u07",
+          "start": 0,
+          "end": 8,
+          "surface": "共製爲酒功力全補",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "共製爲酒功力全補"
+          ],
+          "reason": "右半頁第三欄小字雙行註，掛接於「滾水一兩四錢」下方，右行「共製爲酒」、左行「功力全補」，按直行右先左後順序錄入。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c08-controller-unc",
+          "unit_id": "c08-u19",
+          "start": 0,
+          "end": 21,
+          "surface": "鬆下、此夾、朝來夾番、纔起因起立、不夾、恐",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [],
+          "reason": "夾帶使用說明一欄中央有連續疑讀，初錄字序未定。",
+          "position_note": "整單位疑讀；非逐字位置認證。"
+        }
+      ]
+    },
+    {
+      "page_id": "c09",
+      "index": 9,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "p. [14] and inside lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0/full/2200,/0/default.jpg",
+      "source_sha256": "781801988471ef5284ddb36409c96f5d0fb7a6033d700f04ef3f5e45fcd89bc3",
+      "layout_note": "右面正文末段、圖題及一幅疝帶線圖；左面封裡空白。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "complete"
+      },
+      "units": [
+        {
+          "id": "c09-u01",
+          "layer": "original-print",
+          "role": "folio",
+          "side": "right",
+          "text": "四",
+          "bbox": null
+        },
+        {
+          "id": "c09-u02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "夾住、夾之大小、須量人之肥瘦、恰合爲宜、",
+          "bbox": null
+        },
+        {
+          "id": "c09-u03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "愚見中土人醫此症、止用湯藥、偶可止痛、",
+          "bbox": null
+        },
+        {
+          "id": "c09-u04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "而不能令小腸送還本位、曷不令巧匠、照",
+          "bbox": null
+        },
+        {
+          "id": "c09-u05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "式仿造鋼夾、依法治之、乃爲有益也、並附",
+          "bbox": null
+        },
+        {
+          "id": "c09-u06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "鋼夾圖於後、",
+          "bbox": null
+        },
+        {
+          "id": "c09-u07",
+          "layer": "original-print",
+          "role": "figure-label",
+          "side": "right",
+          "text": "治小腸疝偏右鋼夾圖",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "c09-unc-01",
+          "unit_id": "c09-u03",
+          "start": 0,
+          "end": 19,
+          "surface": "愚見中土人醫此症、止用湯藥、偶可止痛、",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "愚"
+          ],
+          "reason": "首字「愚」原刻字形明顯微縮偏書，屬作者行文之謙稱小字，與次字「見」合成「愚見」，為正文語義成分，錄入正文層。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c09-unc-02",
+          "unit_id": "c09-u04",
+          "start": 0,
+          "end": 18,
+          "surface": "而不能令小腸送還本位、曷不令巧匠、照",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "令",
+            "合"
+          ],
+          "reason": "字形上為「人」、中橫、下為「卩」，結構與同欄第 4 字「令」完全相符，文意為「曷不令巧匠」（為何不吩咐能工巧匠），形近「合」，依字形與語義審定為「令」。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        },
+        {
+          "id": "c09-unc-03",
+          "unit_id": "c09-u07",
+          "start": 0,
+          "end": 9,
+          "surface": "治小腸疝偏右鋼夾圖",
+          "extent": "located-unit",
+          "cause": "reading-unresolved",
+          "candidates": [
+            "小腸疝偏右鋼夾圖"
+          ],
+          "reason": "插圖上方文字為單行橫書，依傳統漢字橫額自右至左閱讀方向錄為「小腸疝偏右鋼夾圖」。",
+          "position_note": "初錄疑讀以整個定位單位標記，未聲稱精確到單字；候選可能只涉及該欄內部分文字。"
+        }
+      ],
+      "figure_description": "現代描述：一個橢圓環帶狀疝帶線圖，前部有扣合與壓墊細節。僅描述及轉錄圖題；未編碼比例、幾何、材質或機械效能。"
+    },
+    {
+      "page_id": "c10",
+      "index": 10,
+      "width": 2200,
+      "height": 2025,
+      "official_label": "Lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a77313d2-5533-4c6e-9aad-0c3f9f83c6fc.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a77313d2-5533-4c6e-9aad-0c3f9f83c6fc/full/2200,/0/default.jpg",
+      "source_sha256": "8a24ffe3d6aedf94dac8cd37577864a9b4217e61de4c84bed33351490f2c375f",
+      "layout_note": "外封底無原作印字；紙面痕跡不當作未讀正文。",
+      "layout_reviewed": true,
+      "layer_states": {},
+      "units": [],
+      "uncertainties": []
+    }
+  ]
+}
