@@ -1,6 +1,6 @@
 # 底本、範圍與定位
 
-文件日期及來源查核日：2026-10-25。對應 v0.1.0 發布文件草稿。
+文件日期及來源查核日：2026-10-25。對應 v0.2.0 製備文件。
 
 ## 來源身份
 
@@ -8,11 +8,11 @@
 | --- | --- |
 | 作品 | 論發冷小腸疝兩症 |
 | 館藏 | Bodleian Libraries, University of Oxford；Sinica 1241 |
-| 底本刊刻 | 卷首可見「咸豐九年（末字初錄疑讀另記）」「博濟醫局藏板」，1859 年 |
+| 底本刊刻 | 卷首可見「咸豐九年新鍥」「博濟醫局藏板」，1859 年 |
 | 作者歸屬 | Serica 編目：J. G. Kerr；嘉約翰，1824–1901 |
 | 整理者 | poplolioi11；歷史作者與現代整理者分開 |
 | 數位館藏 ID | 3a397e45-295b-4a9c-a8a5-1b2db808b2b0 |
-| 本版用途 | 忠實初錄、原頁定位、初步檢索及後續校訂 |
+| 本版用途 | 忠實原文、原頁定位、初步檢索及後續校訂 |
 
 [Digital Bodleian 單件](https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/)；[官方 IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json)；[Serica 醫學分類](https://serica.ie/SericaProject/data/976.html)；[蘇黎世大學 China–West 作者記錄](https://www.e-aoi.uzh.ch/apps/china-west/entities/1542)。
 
@@ -49,4 +49,6 @@ Serica 記為線裝一冊「2, 4頁」，16.7 公分；本資料集保留此書�
 
 2026-10-25 有限查重已查維基文庫（含正文、Page、Index 及四庫相關查詢）、Chinese Text Project 題名搜尋、Kanripo 官方 GitHub 題名／描述索引、識典及公開網路。Kanripo 網站未能直接查詢，故採其公開庫索引與外部檢索補查；涵蓋不等同全站全文。未見可用全文或覆蓋未明的部分轉錄線索。結論僅限已查範圍，不宣稱所有網站、館藏、付費庫或未索引文獻均已排除。
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23636109
+本版另以同一官方canvas的8幅4000px影像作比較階段補證；初錄與獨立盲讀使用2200px固定影像。所有URL、實際尺寸與SHA-256列於source-pages.json的supplementary_images，初錄來源紀錄未改。
+
+預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23636930

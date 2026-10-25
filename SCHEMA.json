@@ -254,5 +254,68 @@
       }
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "supplementary_image": {
+      "type": "object",
+      "required": [
+        "page_id",
+        "image_url",
+        "image_sha256",
+        "width",
+        "height",
+        "role"
+      ],
+      "properties": {
+        "page_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z_][A-Za-z0-9_.-]*$"
+        },
+        "image_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "image_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "base_canvas_id": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "mapping_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "base_canvas_id"
+          ]
+        },
+        {
+          "required": [
+            "mapping_note"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$comment": "source-pages.json supplementary_images[] records use #/$defs/supplementary_image; the root schema continues to validate book.json."
 }

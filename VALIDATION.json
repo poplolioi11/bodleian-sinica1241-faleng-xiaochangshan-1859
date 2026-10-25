@@ -13,18 +13,19 @@
     "xml-dtd-entity-prohibition": "passed",
     "tei-p5-relaxng": "passed",
     "cff-full-schema": "passed",
+    "supplementary-images-json-tei-mapping": "passed",
     "public-whitelist-and-file-checksums": "passed"
   },
   "counts": {
     "images": 10,
-    "units": 108,
-    "unicode_code_points": 1692,
-    "uncertainties": 15
+    "units": 116,
+    "unicode_code_points": 1689,
+    "uncertainties": 5
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "c6062c4b118750b2809e294da3ddd78592691514e07419ead83c9a1a62a14da8",
+      "sha256": "e58464343a2057883b61b65782d1eb91cd1deffb247dade6187dfabf78b7aa09",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -39,10 +40,10 @@
     }
   },
   "input_sha256": {
-    "book": "e299c34c8823edbd87fe2dcf553ed04dd49c44f9e83f995eb6eee5828e6d2f07",
-    "sources": "85670eb059fb394aeb53a8c4e3f675928c3c859e6462e9a343b7170d9ac4a028"
+    "book": "ccd8ac9703562b3817005a0e14fead9415953322b62e053217a94f450d2d6305",
+    "sources": "2fc0e2276172017c8b054cf43c5dfaa085a23482fffbc48aa75a7296074a688f"
   },
-  "quality": "完整原印文字層初錄；未獨立影像校讀，未經人類雙校、專家審定或同儕審查。",
+  "quality": "全10幅原印文字層完成來源先讀的獨立AI視讀、逐單位比較與回圖處置；保留3個疑字及2處刻點位置未解。未經人類雙校、專家審定或同儕審查。",
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",
   "peer_review": "not-performed",
