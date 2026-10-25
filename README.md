@@ -1,5 +1,18 @@
 # 《論發冷小腸疝兩症》：1859 年博濟醫局本 AI 獨立校讀資料
 
+## 正式發布狀態（2026-10-25）
+
+**v0.2.0 已正式發布，DOI 已在 DataCite 登記為 findable。**
+
+- 本版 DOI：[10.5281/zenodo.23636930](https://doi.org/10.5281/zenodo.23636930)。
+- 全版本 DOI：[10.5281/zenodo.23636108](https://doi.org/10.5281/zenodo.23636108)。
+- 初錄 v0.1.0 DOI：[10.5281/zenodo.23636109](https://doi.org/10.5281/zenodo.23636109)。
+- [v0.2.0 固定發行包](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/releases/tag/v0.2.0)，提交 `5908a17d6bf1143ca7ecbe5a9673c724fbaf29c1`。
+
+兩端公開 ZIP 已匿名下載比對，47,420 bytes、16 個檔案逐位元一致；SHA-256：`88d74baa0b9113c3b950bd2e90b2682e4130158e3f260a7ba94c8ba17cbd6fbb`。本版保留3個疑字與2處刻點未解，仍未經人類雙校、專家審定或同儕審查。
+
+本節是封存後僅補入 main 分支 README 的狀態說明。固定 ZIP、tag 內的 reserved／草稿字樣及 `VALIDATION.json` 的 `doi_status_at_build` 均記錄製備當時狀態；本次沒有替換封存檔案或改寫舊 tag。`SHA256SUMS` 只用來驗證固定發行包，不適用於後續已更新的 main README。
+
 整理者：**poplolioi11**。資料、編碼與封存包 **v0.2.0**；日期 **2026-10-25**。
 
 底本為牛津大學 Bodleian Libraries 藏 **Sinica 1241**，卷首「咸豐九年新鍥」「博濟醫局藏板」。Serica 書目將作品歸於 **J. G. Kerr（嘉約翰，1824–1901）**；這是歷史作者歸屬，並非本資料集整理者或館方背書。
