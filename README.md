@@ -1,5 +1,11 @@
 # 《論發冷小腸疝兩症》：1859 年博濟醫局本 AI 獨立校讀資料
 
+## 摘要 / Abstract
+
+本資料以牛津大學Bodleian Libraries藏Sinica 1241《論發冷小腸疝兩症》為底本；卷首載1859年博濟醫局藏板，Serica書目歸於J. G. Kerr（嘉約翰）。v0.2.0經獨立AI全圖讀字、比較及回圖裁定，涵蓋10幅掃描中12個原印文字面，提供116個定位單位、1,689個Unicode碼點、訂正及疑讀紀錄，供醫學史檢索、引用與後續校訂。仍有3個疑字及2處刻點位置未解；未完成人類雙校，圖形幾何未重建，史料不作現代診療指引。
+
+This dataset presents the v0.2.0 independently AI-collated transcription of 論發冷小腸疝兩症, Bodleian Libraries, University of Oxford, Sinica 1241. The opening records the holding of printing blocks by 博濟醫局 in 1859, and the Serica catalogue attributes the work to J. G. Kerr. Independent reading, comparison and source-image adjudication cover the 12 original printed-text faces within 10 scans. The release provides 116 located units, 1,689 Unicode code points, corrections and uncertainties for medical-history discovery, citation and later correction. Three character doubts and two punctuation positions remain unresolved. Human double collation is incomplete, diagram geometry is not reconstructed, and the material is not modern clinical guidance.
+
 ## 正式發布狀態（2026-10-25）
 
 **v0.2.0 已正式發布，DOI 已在 DataCite 登記為 findable。**
