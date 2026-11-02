@@ -1,10 +1,17 @@
-# 《論發冷小腸疝兩症》：1859 年博濟醫局本 AI 獨立校讀資料
+# 論發冷小腸疝兩症（1859；Bodleian Sinica 1241） / lun fa leng xiao chang shan liang zheng: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以牛津大學Bodleian Libraries藏Sinica 1241《論發冷小腸疝兩症》為底本；卷首載1859年博濟醫局藏板，Serica書目歸於J. G. Kerr（嘉約翰）。v0.2.0經獨立AI全圖讀字、比較及回圖裁定，涵蓋10幅掃描中12個原印文字面，提供116個定位單位、1,689個Unicode碼點、訂正及疑讀紀錄，供醫學史檢索、引用與後續校訂。仍有3個疑字及2處刻點位置未解；未完成人類雙校，圖形幾何未重建，史料不作現代診療指引。
+《論發冷小腸疝兩症》（lun fa leng xiao chang shan liang zheng）是 1859 年博濟醫局刊行的中文醫學小冊，館目歸於 John Glasgow Kerr（J. G. Kerr），刊地疑定為 [Canton，廣州]。書中以基督教前言銜接瘧症與小腸疝論述，並附疝帶線圖，可供研究晚清中文醫學出版、疾病敘述及宗教與醫療知識的傳播。v0.2.0 依 Bodleian Sinica 1241 的 10 幅影像轉錄 12 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset presents the v0.2.0 independently AI-collated transcription of 論發冷小腸疝兩症, Bodleian Libraries, University of Oxford, Sinica 1241. The opening records the holding of printing blocks by 博濟醫局 in 1859, and the Serica catalogue attributes the work to J. G. Kerr. Independent reading, comparison and source-image adjudication cover the 12 original printed-text faces within 10 scans. The release provides 116 located units, 1,689 Unicode code points, corrections and uncertainties for medical-history discovery, citation and later correction. Three character doubts and two punctuation positions remain unresolved. Human double collation is incomplete, diagram geometry is not reconstructed, and the material is not modern clinical guidance.
+Lun fa leng xiao chang shan liang zheng (論發冷小腸疝兩症) is a Chinese medical pamphlet published by 博濟醫局 (Boji Medical Institution) in 1859 and attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr), with its publication place supplied as [Canton]. A Christian preface precedes discussions of ague and hernia and a truss illustration, offering material for studying late Qing medical publishing, descriptions of illness, and the circulation of religious and medical knowledge. Version 0.2.0 transcribes 12 original-print text faces across ten images of Bodleian Sinica 1241, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_945)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml)
 
 ## 正式發布狀態（2026-10-25）
 
