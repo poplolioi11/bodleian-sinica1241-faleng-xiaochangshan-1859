@@ -1,10 +1,12 @@
 cff-version: 1.2.0
 type: dataset
 message: 請引用實際使用的固定版本，並附書面定位與館方影像。 本版為AI獨立校讀／保留未解，未經人類雙校、專家審定或同儕審查。 歷史作者、館藏底本與本次整理應分開引用。
-title: 《論發冷小腸疝兩症》：1859 年博濟醫局本AI獨立校讀資料集（AI獨立校讀／保留未解）
+title: "論發冷小腸疝兩症(1859;Bodleian Sinica 1241) / Lun fa leng xiao chang shan liang zheng [On ague and hernia]: Transcription dataset"
 authors:
-- name: poplolioi11
-  website: https://github.com/poplolioi11
+  - family-names: Chu
+    given-names: Chen-Yu
+    orcid: https://orcid.org/0009-0003-9738-6914
+    website: https://github.com/poplolioi11
 version: 0.2.0
 url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859
 license-url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/v0.2.0/RIGHTS.md

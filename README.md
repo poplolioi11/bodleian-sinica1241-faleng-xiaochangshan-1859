@@ -36,7 +36,7 @@ Lun fa leng xiao chang shan liang zheng (論發冷小腸疝兩症) is a Chinese 
 
 兩端公開 ZIP 已匿名下載比對，47,420 bytes、16 個檔案逐位元一致；SHA-256：`88d74baa0b9113c3b950bd2e90b2682e4130158e3f260a7ba94c8ba17cbd6fbb`。本版保留3個疑字與2處刻點未解，仍未經人類雙校、專家審定或同儕審查。
 
-本節是封存後僅補入 main 分支 README 的狀態說明。固定 ZIP、tag 內的 reserved／草稿字樣及 `VALIDATION.json` 的 `doi_status_at_build` 均記錄製備當時狀態；本次沒有替換封存檔案或改寫舊 tag。`SHA256SUMS` 只用來驗證固定發行包，不適用於後續已更新的 main README。
+本節是封存後僅補入 main 分支 README 的狀態說明。固定 ZIP、tag 內的 reserved／草稿字樣及 `VALIDATION.json` 的 `doi_status_at_build` 均記錄製備當時狀態；本次沒有替換封存檔案或改寫舊 tag。`SHA256SUMS` 只用來驗證固定發行包，不適用於後續已更新的 main README 與 CITATION.cff。
 
 整理者：**poplolioi11**。資料、編碼與封存包 **v0.2.0**；日期 **2026-10-25**。
 
