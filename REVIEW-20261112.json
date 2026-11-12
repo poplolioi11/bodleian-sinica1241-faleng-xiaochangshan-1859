@@ -1,0 +1,32 @@
+{
+  "schema": "targeted-retained-reading/1",
+  "corpus_version_unchanged": "0.2.0",
+  "date": "2026-11-12",
+  "unit_id": "c03-L07",
+  "recorded": "亡",
+  "candidate_not_adopted": "乃",
+  "result": "source-reading-retained",
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d1e8b916-8bb7-4574-aeb5-50094cafa5ae/full/2200,/0/default.jpg",
+  "source_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+  "reason": "2200px及既有4000px同頁原像素均見中上短豎/點接橫、左下豎折向右收，為亡；不見乃的左長撇及右折鉤。既有v0.1.0候選已曝光，但不以版次投票。",
+  "review_scope": "Non-blind targeted source-image review only; no text changed, no new full-book independent collation or human/expert review.",
+  "range": {
+    "start": 14,
+    "end": 15,
+    "counting": "zero-based Unicode codepoints in v0.2.0 unit, end-exclusive"
+  },
+  "high_resolution_source": {
+    "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d1e8b916-8bb7-4574-aeb5-50094cafa5ae/full/4000,/0/default.jpg",
+    "sha256": "7fc116babb3bb3a958bb8339dd44dc95fa9b31e355f71408e579f5d78fb70e9f",
+    "dimensions": [
+      4000,
+      3682
+    ]
+  },
+  "secondary_review": {
+    "provider": "OpenAI Codex native",
+    "actual_model": null,
+    "effort": null,
+    "scope": "Source detail viewed by integrating controller; no new glyph change."
+  }
+}

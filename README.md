@@ -92,3 +92,7 @@ poplolioi11（2026）。《論發冷小腸疝兩症》：1859年博濟醫局本A
 Source-first independent AI image reading, complete comparison and source adjudication of the 1859 Boji imprint, Bodleian Sinica 1241, attributed by Serica to J. G. Kerr. Version 0.2.0 covers the original printed text in all ten fixed images: eighteen visible book surfaces, twelve text-bearing faces. The complete religious preface is included. The truss diagram is described, not geometrically reconstructed. There are 116 units, 1689 Unicode code points, three unresolved graphs and two unresolved punctuation locations. Human double collation, expert review and peer review have not been performed; no measured accuracy is claimed. JSON/TXT/TEI, source hashes, corrections, note attachments and layered rights are provided. Source scans, processing programs, prompts and private work records are excluded. Public-domain historical text has no new restrictions; copyrightable original documentation is CC BY 4.0.
 
 預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23636930
+
+## 2026-11-12 指定疑問覆核
+
+c03-L07 的「亡／乃」已回原圖核對，保留原錄「亡」，原文零改，沿用固定 v0.2.0。詳[覆核說明](REVIEW-20261112.md)及[定位記錄](REVIEW-20261112.json)。這兩份是 main 分支新增的閱讀補充，不改寫原有封存包或其校驗表，也不代表新增全文人工校勘。
