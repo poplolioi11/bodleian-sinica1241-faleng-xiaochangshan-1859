@@ -1,24 +1,8 @@
 {
   "dataset_id": "OX-SINICA1241",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
-    {
-      "page_id": "c03",
-      "id": "c03-v020-unc-1",
-      "unit_id": "c03-L01",
-      "start": 1,
-      "end": 2,
-      "surface": "□",
-      "candidates": [
-        "思",
-        "聞"
-      ],
-      "reason": "紙面剝落未恢復，hi-c03仍不能定內部筆畫；僅此一字待定。",
-      "cause": "source-illegible",
-      "extent": "known",
-      "note": "已回圖未解；單字或刻點位置已定位。"
-    },
     {
       "page_id": "c03",
       "id": "c03-v020-point-01",

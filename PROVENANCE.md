@@ -51,4 +51,4 @@ Serica 記為線裝一冊「2, 4頁」，16.7 公分；本資料集保留此書�
 
 本版另以同一官方canvas的8幅4000px影像作比較階段補證；初錄與獨立盲讀使用2200px固定影像。所有URL、實際尺寸與SHA-256列於source-pages.json的supplementary_images，初錄來源紀錄未改。
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23636930
+2026-11-19 追記：v0.2.1 原印範圍與來源沿用基準版。曲宸宇使用 Google 搜尋 AI Mode 輔助原圖核對，依字形在 c03-L01 採用「思」。

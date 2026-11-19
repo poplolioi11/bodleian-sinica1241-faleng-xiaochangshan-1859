@@ -1,0 +1,1388 @@
+{
+  "dataset_id": "OX-SINICA1241",
+  "version": "0.2.0",
+  "compared_with": {
+    "version": "0.1.0",
+    "commit": "0674f0a48211fdc74d238bcda187b13c7dea3cb0",
+    "doi": "10.5281/zenodo.23636109",
+    "book_sha256": "e299c34c8823edbd87fe2dcf553ed04dd49c44f9e83f995eb6eee5828e6d2f07"
+  },
+  "review_scope": {
+    "source_images": [
+      "c01",
+      "c02",
+      "c03",
+      "c04",
+      "c05",
+      "c06",
+      "c07",
+      "c08",
+      "c09",
+      "c10"
+    ],
+    "initial_units_compared": 108,
+    "initial_uncertainty_ranges_addressed": 15,
+    "layout_comparison_complete": true,
+    "independent_source_first_reading": true,
+    "punctuation_columns_examined": 39,
+    "punctuation_columns_adjudicated": 37,
+    "punctuation_columns_reviewed_unresolved": 2,
+    "unreviewed_items": 0,
+    "human_double_collation": "not-run",
+    "expert_review": "not-run"
+  },
+  "position_convention": "疑字start/end為Unicode碼點0起算半開區間[start,end)；刻點缺席的疑讀用相鄰實字作錨，不代表該字未識。小註掛接的0起算字串邊界見CORRECTIONS.json。",
+  "changes": [
+    {
+      "unit_id": "c03-L01",
+      "page_id": "c03",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c03-L01",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "嘗思天道福善禍淫、疾病死亡、所以報惡",
+        "bbox": null
+      },
+      "after": {
+        "id": "c03-L01",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "嘗□天道福善禍淫、疾病死亡、所以報惡",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "保留一字□，思／聞只列候選；高解析不能恢復實體剝落。"
+      ]
+    },
+    {
+      "unit_id": "c03-L02",
+      "page_id": "c03",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c03-L02",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "者也、初天地闢時、亞當夏娃二人違",
+        "bbox": null
+      },
+      "after": {
+        "id": "c03-L02",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "者也、初、天地闢時、亞當夏娃二人違",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c03-L03",
+      "page_id": "c03",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c03-L03",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "天父命、食禁果、罪惡由此始、厥後苗裔因",
+        "bbox": null
+      },
+      "after": {
+        "id": "c03-L03",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "天父命、食禁果、罪惡由此始、厥後苗裔、因",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c03-L05",
+      "page_id": "c03",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c03-L05",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "降以死亡、疾病、懲惡罰罪、使人悔改、此意、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c03-L05",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "降以死亡疾病、懲惡罰罪、使人悔改、此意",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c03-L07",
+      "page_id": "c03",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c03-L07",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "因罪而死、又曰、罪惡之償値、乃死、蓋禍難",
+        "bbox": null
+      },
+      "after": {
+        "id": "c03-L07",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "因罪而死、又曰、罪惡之償値、亡死、蓋禍難",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "接受初錄償値，採盲讀亡；不用經文通行翻譯把可見亡改乃。"
+      ]
+    },
+    {
+      "unit_id": "c03-L-folio-v020",
+      "page_id": "c03",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c03-L-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "left",
+        "text": "一",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d1e8b916-8bb7-4574-aeb5-50094cafa5ae.json",
+      "source_image_sha256": "27a4730db820095c44c51b3dd0241a803101c9b5b07bc936db00d55d8db1f961",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c04-R04",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-R04",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "天堂地獄之說爲無稽也、近世風俗、人心",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-R04",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "天堂地獄之說爲無稽也、近世風俗人心、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。"
+      ]
+    },
+    {
+      "unit_id": "c04-R05",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-R05",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "愈降愈下、故兵燹水旱、瘟疫疾病、無地無",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-R05",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "愈降愈下、故兵燹、水旱、瘟疫、疾病、無地無",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "痳由外旁決定；前言完整範圍c03-L01至c04-L07，未刪宗教文字或改成摘要。"
+      ]
+    },
+    {
+      "unit_id": "c04-R06",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-R06",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "之、諸禍中、恆多者惟疾病、顯見者亦惟疾",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-R06",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "之、諸禍中、恒多者惟疾病、顯見者亦惟疾",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。"
+      ]
+    },
+    {
+      "unit_id": "c04-R07",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-R07",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "病、如貪花柳者、有疳疔麻瘋患、飲酒食洋",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-R07",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "病、如貪花柳者有疳疔痳瘋患、飲酒食洋",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "痳由外旁決定；前言完整範圍c03-L01至c04-L07，未刪宗教文字或改成摘要。"
+      ]
+    },
+    {
+      "unit_id": "c04-R08",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-R08",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "煙者、有損身致病患、好勇鬪狠者、有刀傷",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-R08",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "right",
+        "text": "烟者、有損身致病患、好勇□狠者、有刀傷",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。"
+      ]
+    },
+    {
+      "unit_id": "c04-L01",
+      "page_id": "c04",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c04-L01",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "雖良民亦有不免者、推其原、皆因初世犯",
+        "bbox": null
+      },
+      "after": {
+        "id": "c04-L01",
+        "layer": "original-print",
+        "role": "preface",
+        "side": "left",
+        "text": "雖良民亦有不免者、推其原皆因初世犯",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "痳由外旁決定；前言完整範圍c03-L01至c04-L07，未刪宗教文字或改成摘要。"
+      ]
+    },
+    {
+      "unit_id": "c04-L-folio-v020",
+      "page_id": "c04",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c04-L-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "left",
+        "text": "二",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c498aa5c-3700-4e1d-b586-7d7fb06ad0a2.json",
+      "source_image_sha256": "441cbb1103454b55526081f84e0e9b905e4bf2c8139061ceaf1643ce95a1c17f",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c05-L03",
+      "page_id": "c05",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c05-L03",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "汗出而病暫退、或每日一作、或間日一",
+        "bbox": null
+      },
+      "after": {
+        "id": "c05-L03",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "汗出後而病暫退、或每日一作、或間日一",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "補初錄漏掉的後，不另新造直欄。",
+        "維持原數字量詞，未用現代療程換算或推導。衰甚至只存在刻點位置分歧，另列段讀待裁。"
+      ]
+    },
+    {
+      "unit_id": "c05-L06",
+      "page_id": "c05",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c05-L06",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "脹、或腹內脾肝體大異常、卽中土醫書所",
+        "bbox": null
+      },
+      "after": {
+        "id": "c05-L06",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "脹或腹內脾肝體大異常、卽中土醫書所",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c05-L07",
+      "page_id": "c05",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c05-L07",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "謂、久瘧腹有痞塊、名爲瘧母是也、大抵此",
+        "bbox": null
+      },
+      "after": {
+        "id": "c05-L07",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "謂久瘧腹有痞塊、名爲瘧母、是也、大抵此",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。"
+      ]
+    },
+    {
+      "unit_id": "c05-L08",
+      "page_id": "c05",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c05-L08",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "症、秋天恆多、夏天亦不少、治法、最効是用",
+        "bbox": null
+      },
+      "after": {
+        "id": "c05-L08",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "症、秋天恒多、夏天亦不少、治法、最効是用",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。",
+        "須不是効的候選，而是獨立漏錄正文。將小註掛在六厘後、須前。"
+      ]
+    },
+    {
+      "unit_id": "c05-L09",
+      "page_id": "c05",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c05-L09",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "金雞納霜、日服四次、每次六厘、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c05-L09",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "金雞納霜、日服四次、每次六厘、須",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "維持原數字量詞，未用現代療程換算或推導。衰甚至只存在刻點位置分歧，另列段讀待裁。",
+        "須不是効的候選，而是獨立漏錄正文。將小註掛在六厘後、須前。"
+      ]
+    },
+    {
+      "unit_id": "c05-L-folio-v020",
+      "page_id": "c05",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c05-L-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "left",
+        "text": "一",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/219be7e7-1d08-4961-8dac-36fd8aeb3888.json",
+      "source_image_sha256": "daa72d32229305a6d38d7d1181ba1b91e9a9c78e75d2653bd032142272182089",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c06-L01",
+      "page_id": "c06",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c06-L01",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "自病截前一日起計、每至十四日或復發",
+        "bbox": null
+      },
+      "after": {
+        "id": "c06-L01",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "自病截前一日起計、每至十四日、或復發",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json",
+      "source_image_sha256": "1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "沒有用語義將三四次之七日換算或改寫；此項只確認書上字，不作醫療正確性判斷。"
+      ]
+    },
+    {
+      "unit_id": "c06-L02",
+      "page_id": "c06",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c06-L02",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "仍照式服藥以截之、又法、服信石酒一錢、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c06-L02",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "仍照式服藥以截之、又法、服信石酒一錢",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json",
+      "source_image_sha256": "1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "沒有用語義將三四次之七日換算或改寫；此項只確認書上字，不作醫療正確性判斷。"
+      ]
+    },
+    {
+      "unit_id": "c06-L03",
+      "page_id": "c06",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c06-L03",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "至一錢半、須於朝晨、及作冷前、每服一次、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c06-L03",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "至一錢半、須於朝晨及作冷前、每服一次、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json",
+      "source_image_sha256": "1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "沒有用語義將三四次之七日換算或改寫；此項只確認書上字，不作醫療正確性判斷。"
+      ]
+    },
+    {
+      "unit_id": "c06-R-folio-v020",
+      "page_id": "c06",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c06-R-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "right",
+        "text": "一",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/64ab54b0-ee9f-4865-b17f-b0728d90030a.json",
+      "source_image_sha256": "1d111994bd872b749eb23eee435be3b87bfd1edd229062781943cfac868fed0a",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c07-u01",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u01",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "土人習而不察、故以爲擺子、往來無定、歸",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u01",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "土人習而不察、故以爲擺子往來無定、歸",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。"
+      ]
+    },
+    {
+      "unit_id": "c07-u07",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u07",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "霜、乃其樹皮所出、西國藥肆、用價沽此",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u07",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "霜乃其樹皮所出、西國藥肆、用價沽此",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "藥名不翻譯為現代學名，舊音譯不按通行地名校改。"
+      ]
+    },
+    {
+      "unit_id": "c07-u10",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u10",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "霜、其價頗昂、現年比前數年、價平一半、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u10",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "霜、其價頗昂、現年比前數年價平一半、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "按右小行後左小行；保留初錄unit c07-u11並加子行結構，掛在價平一半後，不改寫換字。",
+        "維持每欄原字，不把跨頁二十員移到單一unit或改成現代貨幣。"
+      ]
+    },
+    {
+      "unit_id": "c07-u11",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u11",
+        "layer": "original-print",
+        "role": "note",
+        "side": "left",
+        "text": "四大約換三",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u11",
+        "layer": "original-print",
+        "role": "note",
+        "side": "left",
+        "text": "大約三四換",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "按右小行後左小行；保留初錄unit c07-u11並加子行結構，掛在價平一半後，不改寫換字。"
+      ]
+    },
+    {
+      "unit_id": "c07-u15",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u15",
+        "layer": "original-print",
+        "role": "note",
+        "side": "left",
+        "text": "兩次",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u15",
+        "layer": "original-print",
+        "role": "note",
+        "side": "left",
+        "text": "分兩三次",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "初錄漏分、三；小註掛在服一二分後，右行後左行。"
+      ]
+    },
+    {
+      "unit_id": "c07-u16",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u16",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "極有應驗、又凡人不論甚麼病、後欠補、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u16",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "極有應驗、又凡人不論甚麼病後欠補、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "藥名不翻譯為現代學名，舊音譯不按通行地名校改。"
+      ]
+    },
+    {
+      "unit_id": "c07-u17",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u17",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "及戒洋烟後、欠補、朝晚飯前、每服二厘、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u17",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "及戒洋烟後欠補、朝晚飯前每服二厘、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "藥名不翻譯為現代學名，舊音譯不按通行地名校改。"
+      ]
+    },
+    {
+      "unit_id": "c07-u18",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u18",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "可補元氣、戒洋烟藥丸斷不可少此一",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u18",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "可補元氣、戒洋烟藥丸、斷不可少此一",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "藥名不翻譯為現代學名，舊音譯不按通行地名校改。"
+      ]
+    },
+    {
+      "unit_id": "c07-u19",
+      "page_id": "c07",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c07-u19",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "味、河南鰲洲興盛行常有發兌、每樽",
+        "bbox": null
+      },
+      "after": {
+        "id": "c07-u19",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "味、河南□洲興盛行常有發兌、每樽",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "撤回本輪較早接受鰲的傾向；下部不足以排除鼇，保留□。不以地理常識或商號資料選字。"
+      ]
+    },
+    {
+      "unit_id": "c07-R-folio-v020",
+      "page_id": "c07",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c07-R-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "right",
+        "text": "二",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c07-L-folio-v020",
+      "page_id": "c07",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c07-L-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "left",
+        "text": "三",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07855068-9f44-4ce8-8494-fc635975ffd0.json",
+      "source_image_sha256": "afe199a17aa9fafa8c07b405238a3c46dd043e6612cd654bb26840b5fb878ca6",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c08-u03",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u03",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "信石酒",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u03",
+        "layer": "original-print",
+        "role": "title",
+        "side": "right",
+        "text": "信石酒、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "原c08-u04改為body且只留信石三厘；新增c08-u04-N01-v020承載已錄但需分層的白者佳。不是把初錄unit丟棄。"
+      ]
+    },
+    {
+      "unit_id": "c08-u04",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u04",
+        "layer": "original-print",
+        "role": "note",
+        "side": "right",
+        "text": "信石三厘　白者佳",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u04",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "信石三厘",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "原c08-u04改為body且只留信石三厘；新增c08-u04-N01-v020承載已錄但需分層的白者佳。不是把初錄unit丟棄。"
+      ]
+    },
+    {
+      "unit_id": "c08-u04-N01-v020",
+      "page_id": "c08",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c08-u04-N01-v020",
+        "layer": "original-print",
+        "role": "note",
+        "side": "right",
+        "text": "白者佳",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c08-u07",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u07",
+        "layer": "original-print",
+        "role": "note",
+        "side": "right",
+        "text": "共製爲酒功力全補",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u07",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "共製爲酒功力全補",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。",
+        "保留原unit與文字；撤銷雙行小註說法，不另加不存在的左右行。"
+      ]
+    },
+    {
+      "unit_id": "c08-u09",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u09",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "小腸疝、乃小腸離了本位、從肚腹軟弱處",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u09",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "小腸疝乃小腸離了本位、從肚腹軟弱處",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "盲讀偏、致被影像部件推翻。"
+      ]
+    },
+    {
+      "unit_id": "c08-u11",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u11",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "處、或在腎囊、但在腎囊者恆多、初起時小、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u11",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "處、或在腎囊、但在腎囊者恒多、初起時小、",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。",
+        "盲讀偏、致被影像部件推翻。"
+      ]
+    },
+    {
+      "unit_id": "c08-u12",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u12",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "愈久愈大、有歷年後、大如人頭者、其故或",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u12",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "愈久愈大、有歷年後大如人頭者、其故或",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "盲讀偏、致被影像部件推翻。"
+      ]
+    },
+    {
+      "unit_id": "c08-u14",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u14",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "提重物所傷、治法不須服藥、病者宜高肩",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u14",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "提重物所傷、治法、不須服藥、病者宜高肩",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "未用語義重排；依同一直欄的物理先後與三個可辨刻點更正。"
+      ]
+    },
+    {
+      "unit_id": "c08-u19",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u19",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "鬆下、此夾、朝來夾番、纔起因起立、不夾、恐",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u19",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "鬆下此夾、朝來夾番纔起、因起立不夾、恐",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "未用語義重排；依同一直欄的物理先後與三個可辨刻點更正。"
+      ]
+    },
+    {
+      "unit_id": "c08-u22",
+      "page_id": "c08",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c08-u22",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "痛關生死、治法雖是大費工夫、仍須用夾、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c08-u22",
+        "layer": "original-print",
+        "role": "body",
+        "side": "left",
+        "text": "痛關生死、治法雖是大費工夫、仍須用夾",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "未用語義重排；依同一直欄的物理先後與三個可辨刻點更正。"
+      ]
+    },
+    {
+      "unit_id": "c08-L-folio-v020",
+      "page_id": "c08",
+      "change": "added-source-unit",
+      "before": null,
+      "after": {
+        "id": "c08-L-folio-v020",
+        "layer": "original-print",
+        "role": "folio",
+        "side": "left",
+        "text": "四",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c8f5b06a-3698-49b3-ad38-c0d552114c15.json",
+      "source_image_sha256": "b91189852dc39848695298c7154ae43ffb6921ff31f304f5c67fb2c04e8e1529",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": []
+    },
+    {
+      "unit_id": "c09-u02",
+      "page_id": "c09",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c09-u02",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "夾住、夾之大小、須量人之肥瘦、恰合爲宜、",
+        "bbox": null
+      },
+      "after": {
+        "id": "c09-u02",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "夾住、夾之大小、須量人之肥瘦恰合爲宜",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0.json",
+      "source_image_sha256": "781801988471ef5284ddb36409c96f5d0fb7a6033d700f04ef3f5e45fcd89bc3",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "以可見部件改恒、烟；鬪／鬭已回高解析圖仍保留□與候選，不把異體正規化當影像校正。",
+        "按同欄可比筆形接受令，不依句意排合。"
+      ]
+    },
+    {
+      "unit_id": "c09-u04",
+      "page_id": "c09",
+      "change": "revised-text-or-layer",
+      "before": {
+        "id": "c09-u04",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "而不能令小腸送還本位、曷不令巧匠、照",
+        "bbox": null
+      },
+      "after": {
+        "id": "c09-u04",
+        "layer": "original-print",
+        "role": "body",
+        "side": "right",
+        "text": "而不能令小腸送還本位、曷不令巧匠照",
+        "bbox": null
+      },
+      "source_canvas": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2d30b9c3-d0fa-4135-bb9a-31569c1bbdd0.json",
+      "source_image_sha256": "781801988471ef5284ddb36409c96f5d0fb7a6033d700f04ef3f5e45fcd89bc3",
+      "reason": "主代理依獨立視讀、全量比較及回圖證據採納；疑讀保留於uncertainties.json。",
+      "evidence_topics": [
+        "按同欄可比筆形接受令，不依句意排合。"
+      ]
+    }
+  ],
+  "note_attachments": [
+    {
+      "page_id": "c05",
+      "note_unit_id": "c05-L09-N01",
+      "host_unit_id": "c05-L09",
+      "before_text": "須",
+      "subcolumns": [
+        {
+          "side": "right",
+          "text": "少則不"
+        },
+        {
+          "side": "left",
+          "text": "効"
+        }
+      ],
+      "reading_order": "right-then-left",
+      "anchor_index": 15,
+      "host_before_anchor": "金雞納霜、日服四次、每次六厘、",
+      "host_after_anchor": "須"
+    },
+    {
+      "page_id": "c07",
+      "note_unit_id": "c07-u11",
+      "host_unit_id": "c07-u10",
+      "subcolumns": [
+        {
+          "side": "right",
+          "text": "大約三"
+        },
+        {
+          "side": "left",
+          "text": "四換"
+        }
+      ],
+      "reading_order": "right-then-left",
+      "physical_location": "次欄其性之上",
+      "anchor_index": 18,
+      "host_before_anchor": "霜、其價頗昂、現年比前數年價平一半、",
+      "host_after_anchor": ""
+    },
+    {
+      "page_id": "c07",
+      "note_unit_id": "c07-u15",
+      "host_unit_id": "c07-u14",
+      "subcolumns": [
+        {
+          "side": "right",
+          "text": "分兩"
+        },
+        {
+          "side": "left",
+          "text": "三次"
+        }
+      ],
+      "reading_order": "right-then-left",
+      "anchor_index": 16,
+      "host_before_anchor": "卽潮熱、於每日熱退時、服一二分、",
+      "host_after_anchor": ""
+    },
+    {
+      "page_id": "c08",
+      "note_unit_id": "c08-u04-N01-v020",
+      "host_unit_id": "c08-u04",
+      "subcolumns": [
+        {
+          "side": "single",
+          "text": "白者佳"
+        }
+      ],
+      "reading_order": "single-vertical-column",
+      "before_unit_id": "c08-u05",
+      "anchor_index": 4,
+      "host_before_anchor": "信石三厘",
+      "host_after_anchor": ""
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "c03-v020-unc-1",
+      "unit_id": "c03-L01",
+      "start": 1,
+      "end": 2,
+      "surface": "□",
+      "candidates": [
+        "思",
+        "聞"
+      ],
+      "reason": "紙面剝落未恢復，hi-c03仍不能定內部筆畫；僅此一字待定。",
+      "cause": "source-illegible",
+      "extent": "known",
+      "note": "已回圖未解；單字或刻點位置已定位。"
+    },
+    {
+      "id": "c03-v020-point-01",
+      "unit_id": "c03-L01",
+      "start": 8,
+      "end": 9,
+      "surface": "、",
+      "candidates": [
+        "、",
+        "無刻點"
+      ],
+      "reason": "淫右下短黑痕緊接版框，高解析回圖仍不能確定獨立刻點或邊框黏墨；暫保留初錄刻點。",
+      "cause": "point-shape-unresolved",
+      "extent": "known",
+      "note": "已回圖未解；單字或刻點位置已定位。"
+    },
+    {
+      "id": "c04-v020-unc-1",
+      "unit_id": "c04-R08",
+      "start": 12,
+      "end": 13,
+      "surface": "□",
+      "candidates": [
+        "鬪",
+        "鬭"
+      ],
+      "reason": "鬥部內筆在現有固定影像不足以無疑區分；停止猜補。",
+      "cause": "reading-unresolved",
+      "extent": "known",
+      "note": "已回圖未解；單字或刻點位置已定位。"
+    },
+    {
+      "id": "c06-v020-point-01",
+      "unit_id": "c06-L01",
+      "start": 17,
+      "end": 18,
+      "surface": "發",
+      "candidates": [
+        "發",
+        "發、"
+      ],
+      "reason": "欄末發右下靠書脊及底框的墨痕難分字末、黏墨或刻點；十四日後點可定，此欄末點已回圖未解，暫保留初錄無點。",
+      "cause": "point-shape-unresolved",
+      "extent": "known",
+      "note": "已回圖未解；相鄰實字是刻點缺席疑讀之錨。"
+    },
+    {
+      "id": "c07-v020-unc-1",
+      "unit_id": "c07-u19",
+      "start": 4,
+      "end": 5,
+      "surface": "□",
+      "candidates": [
+        "鰲",
+        "鼇"
+      ],
+      "reason": "hi-c07上部敖可辨，下部魚／黽的外側折筆與底筆不能無疑區分；停止按地名補定。",
+      "cause": "reading-unresolved",
+      "extent": "known",
+      "note": "已回圖未解；單字或刻點位置已定位。"
+    }
+  ],
+  "limits": "來源定位訂正摘要；詳細工作流程、提示、裁片及完整比較問答未公開。未測逐字準確率，不是人類專家定本。"
+}

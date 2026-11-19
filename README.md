@@ -1,48 +1,20 @@
-# 論發冷小腸疝兩症(1859;Bodleian Sinica 1241) / Lun fa leng xiao chang shan liang zheng [On ague and hernia]: Transcription dataset
+# 《論發冷小腸疝兩症》：1859 年博濟醫局本 AI 獨立校讀資料
 
-## 摘要 / Abstract
-
-《論發冷小腸疝兩症》（Lun fa leng xiao chang shan liang zheng）是 1859 年博濟醫局刊行的中文醫學小冊，館目歸於 John Glasgow Kerr（J. G. Kerr），刊地疑定為 [Canton，廣州]。書中以基督教前言銜接瘧症與小腸疝論述，並附疝帶線圖，可供研究晚清中文醫學出版、疾病敘述及宗教與醫療知識的傳播。v0.2.0 依 Bodleian Sinica 1241 的 10 幅影像轉錄 12 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
-
-Lun fa leng xiao chang shan liang zheng (論發冷小腸疝兩症) is a Chinese medical pamphlet published by 博濟醫局 (Boji Medical Institution) in 1859 and attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr), with its publication place supplied as [Canton]. A Christian preface precedes discussions of ague and hernia and a truss illustration, offering material for studying late Qing medical publishing, descriptions of illness, and the circulation of religious and medical knowledge. Version 0.2.0 transcribes 12 original-print text faces across ten images of Bodleian Sinica 1241, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
-
-原件與書目入口 / Source witness and catalogue:
-
-- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/)
-- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_945)
-- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json)
-- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml)
-
-### 題名與語言說明 / Title and language notes
-
-方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
-
-館目原羅馬字題名：「lun fa leng xiao chang shan liang zheng」。展示：「Lun fa leng xiao chang shan liang zheng」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
-
-題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml)
-
-語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
-
-語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201241.xml)
-
-## 正式發布狀態（2026-10-25）
-
-**v0.2.0 已正式發布，DOI 已在 DataCite 登記為 findable。**
-
-- 本版 DOI：[10.5281/zenodo.23636930](https://doi.org/10.5281/zenodo.23636930)。
-- 全版本 DOI：[10.5281/zenodo.23636108](https://doi.org/10.5281/zenodo.23636108)。
-- 初錄 v0.1.0 DOI：[10.5281/zenodo.23636109](https://doi.org/10.5281/zenodo.23636109)。
-- [v0.2.0 固定發行包](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/releases/tag/v0.2.0)，提交 `5908a17d6bf1143ca7ecbe5a9673c724fbaf29c1`。
-
-兩端公開 ZIP 已匿名下載比對，47,420 bytes、16 個檔案逐位元一致；SHA-256：`88d74baa0b9113c3b950bd2e90b2682e4130158e3f260a7ba94c8ba17cbd6fbb`。本版保留3個疑字與2處刻點未解，仍未經人類雙校、專家審定或同儕審查。
-
-本節是封存後僅補入 main 分支 README 的狀態說明。固定 ZIP、tag 內的 reserved／草稿字樣及 `VALIDATION.json` 的 `doi_status_at_build` 均記錄製備當時狀態；本次沒有替換封存檔案或改寫舊 tag。`SHA256SUMS` 只用來驗證固定發行包，不適用於後續已更新的 main README 與 CITATION.cff。
-
-整理者：**poplolioi11**。資料、編碼與封存包 **v0.2.0**；日期 **2026-10-25**。
+整理者：**曲宸宇（Chu, Chen-Yu；帳號 poplolioi11）**。本版 **v0.2.1**；日期 **2026-11-19**。
 
 底本為牛津大學 Bodleian Libraries 藏 **Sinica 1241**，卷首「咸豐九年新鍥」「博濟醫局藏板」。Serica 書目將作品歸於 **J. G. Kerr（嘉約翰，1824–1901）**；這是歷史作者歸屬，並非本資料集整理者或館方背書。
 
-本版完成全部10幅固定影像原印文字層的獨立AI視讀、逐單位比較及回圖處置；保留**3個疑字、2處刻點位置未解**。這是AI校讀資料，未經人類雙校、專家審定或同儕審查，未測逐字準確率。
+本版完成全部10幅固定影像原印文字層的獨立AI視讀、逐單位比較及回圖處置；保留**2個疑字、2處刻點位置未解**。這是AI校讀資料，未經人類雙校、專家審定或同儕審查，未測逐字準確率。
+
+## v0.2.1 的單字訂正
+
+整理者以 c03 同一館方高解析影像核定 `c03-L01` 的「嘗□天道」為「嘗思天道」。Google 搜尋的 AI Mode 作為辨識輔助，採字理由是原圖的整體字形結構。另兩個疑字及兩處刻點未解。上一版的完整覆核及下列產製沿革適用於基準版；本輪屬定點作者覆核。
+
+- [原圖](https://iiif.bodleian.ox.ac.uk/iiif/image/d1e8b916-8bb7-4574-aeb5-50094cafa5ae/full/4000,/0/default.jpg)
+- [v0.2.1 固定發行](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/releases/tag/v0.2.1)
+- [上一版 v0.2.0 的 DOI](https://doi.org/10.5281/zenodo.23636930)
+
+本固定 GitHub 版以發行連結引用。
 
 ## 範圍與下載
 
@@ -50,12 +22,12 @@ Lun fa leng xiao chang shan liang zheng (論發冷小腸疝兩症) is a Chinese 
 - [book.txt](book.txt)：直接閱讀的UTF-8文字；`〔unit:…〕`是現代導航標籤。
 - [book.tei.xml](book.tei.xml)：TEI P5，與JSON逐單位字串及順序一致。
 - [source-pages.json](source-pages.json)：來源頁序、影像URL、尺寸及SHA-256。
-- [uncertainties.json](uncertainties.json)：3個未定字與2處未定刻點。
-- [CORRECTIONS.json](CORRECTIONS.json)：相對v0.1.0的逐項訂正、小註掛接及覆核摘要。
+- [uncertainties.json](uncertainties.json)：2個未定字與2處未定刻點。
+- [CORRECTIONS.json](CORRECTIONS.json)：本版一字訂正；歷史逐項訂正及小註掛接見 `CORRECTIONS-history-v0.2.0.json`。
 
 10幅掃描呈現18個可見書面，包含封面、封裡及空白；其中12面有原印文字。官方pp.[1]–[14]是內頁面標籤，與原刻版心葉碼分開記錄。全篇宗教前言、醫學正文、題名、刊記、小註、版心及圖題均在範圍內。全冊外觀有一幅疝帶線圖，本包僅保存其文字描述及圖題，未重建幾何。後加英文展覽標籤、手寫、藏章與拍攝尺卡排除於原作轉錄。
 
-本版有**116個定位單位、1689個Unicode碼點**，對47個既有或新增單位作文字／點號／層別調整；包含7個初錄漏錄的版心單位，以及將已錄小字另立1個單位。原有108個unit ID全部保留。版本差異及未解以檔案記錄為準；單位數、疑字數與校讀覆蓋不代表準確率。
+本版有**116個定位單位、1689個Unicode碼點**，先前v0.2.0對47個既有或新增單位作文字／點號／層別調整；包含7個初錄漏錄的版心單位，以及將已錄小字另立1個單位。原有108個unit ID全部保留。版本差異及未解以檔案記錄為準；單位數、疑字數與校讀覆蓋不代表準確率。
 
 ## 覆核、字形與限制
 
@@ -77,9 +49,9 @@ Lun fa leng xiao chang shan liang zheng (論發冷小腸疝兩症) is a Chinese 
 
 ## 引用、固定版本與訂正
 
-poplolioi11（2026）。《論發冷小腸疝兩症》：1859年博濟醫局本AI獨立校讀資料（v0.2.0，保留未解）［資料集］。引用本版DOI並附unit ID、原頁及館藏底本；歷史作者與本次整理分開引用。
+曲宸宇（2026）。《論發冷小腸疝兩症》：1859年博濟醫局本AI獨立校讀資料（v0.2.1，保留未解）［資料集］。引用本固定發行並附unit ID、原頁及館藏底本；歷史作者與本次整理分開引用。
 
-[本版固定GitHub發行](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/releases/tag/v0.2.0) ／ [CITATION.cff](CITATION.cff)。本包製備時的DOI預留狀態列於文末；正式公開狀態以Zenodo紀錄及GitHub Release為準。
+[CITATION.cff](CITATION.cff) 提供書目欄位。
 
 初錄v0.1.0已於2026-10-25正式發布並完成公開回讀：版本DOI [10.5281/zenodo.23636109](https://doi.org/10.5281/zenodo.23636109)，全版本DOI [10.5281/zenodo.23636108](https://doi.org/10.5281/zenodo.23636108)。第一版固定包中的reserved／草稿字樣記錄製備當時狀態；其檔案、tag及DOI均完整保留。
 
@@ -89,10 +61,6 @@ poplolioi11（2026）。《論發冷小腸疝兩症》：1859年博濟醫局本A
 
 ## English summary
 
-Source-first independent AI image reading, complete comparison and source adjudication of the 1859 Boji imprint, Bodleian Sinica 1241, attributed by Serica to J. G. Kerr. Version 0.2.0 covers the original printed text in all ten fixed images: eighteen visible book surfaces, twelve text-bearing faces. The complete religious preface is included. The truss diagram is described, not geometrically reconstructed. There are 116 units, 1689 Unicode code points, three unresolved graphs and two unresolved punctuation locations. Human double collation, expert review and peer review have not been performed; no measured accuracy is claimed. JSON/TXT/TEI, source hashes, corrections, note attachments and layered rights are provided. Source scans, processing programs, prompts and private work records are excluded. Public-domain historical text has no new restrictions; copyrightable original documentation is CC BY 4.0.
+Source-first independent AI image reading, complete comparison and source adjudication of the 1859 Boji imprint, Bodleian Sinica 1241, attributed by Serica to J. G. Kerr. Version 0.2.0 covers the original printed text in all ten fixed images: eighteen visible book surfaces, twelve text-bearing faces. The complete religious preface is included. The truss diagram is described, not geometrically reconstructed. There are 116 units, 1689 Unicode code points, two unresolved graphs and two unresolved punctuation locations. Human double collation, expert review and peer review have not been performed; no measured accuracy is claimed. JSON/TXT/TEI, source hashes, corrections, note attachments and layered rights are provided. Source scans, processing programs, prompts and private work records are excluded. Public-domain historical text has no new restrictions; copyrightable original documentation is CC BY 4.0.
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23636930
-
-## 2026-11-12 指定疑問覆核
-
-c03-L07 的「亡／乃」已回原圖核對，保留原錄「亡」，原文零改，沿用固定 v0.2.0。詳[覆核說明](REVIEW-20261112.md)及[定位記錄](REVIEW-20261112.json)。這兩份是 main 分支新增的閱讀補充，不改寫原有封存包或其校驗表，也不代表新增全文人工校勘。
+館目題名與雙語書目可查[沿革說明](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/40d085fed4b6806f71414af9d6e234c02539f733/README.md)。2026-11-12 的 c03-L07「亡／乃」局部覆核沿用[既有補充](https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/40d085fed4b6806f71414af9d6e234c02539f733/REVIEW-20261112.md)。

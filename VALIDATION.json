@@ -1,56 +1,19 @@
 {
   "status": "passed",
-  "scope": "format, fixed-data equivalence and source linkage only; not reading accuracy",
+  "scope": "fixed-sidecar integrity, format and one author-confirmed change",
   "checks": {
-    "book-json-schema": "passed",
-    "fixed-book-full-readback": "passed",
-    "source-full-readback": "passed",
-    "txt-exact-text-order": "passed",
-    "tei-exact-text-order": "passed",
-    "uncertainty-codepoint-positions": "passed",
-    "unique-ids": "passed",
-    "source-hash-dimensions-urls": "passed",
-    "xml-dtd-entity-prohibition": "passed",
-    "tei-p5-relaxng": "passed",
-    "cff-full-schema": "passed",
-    "supplementary-images-json-tei-mapping": "passed",
-    "public-whitelist-and-file-checksums": "passed"
+    "json_schema_source_linkage": "passed",
+    "tei_p5_relaxng": "passed",
+    "tei_text_order_uncertainties": "passed",
+    "cff_1_2_schema": "passed",
+    "txt_single_codepoint_diff": "passed",
+    "unchanged_four_uncertainties": "passed"
   },
+  "base_archive_sha256": "88d74baa0b9113c3b950bd2e90b2682e4130158e3f260a7ba94c8ba17cbd6fbb",
   "counts": {
-    "images": 10,
     "units": 116,
     "unicode_code_points": 1689,
-    "uncertainties": 5
+    "uncertainties": 4
   },
-  "schemas": {
-    "book": {
-      "file": "SCHEMA.json",
-      "sha256": "e58464343a2057883b61b65782d1eb91cd1deffb247dade6187dfabf78b7aa09",
-      "dialect": "https://json-schema.org/draft/2020-12/schema"
-    },
-    "tei": {
-      "url": "https://www.tei-c.org/Vault/P5/4.12.0/xml/tei/custom/schema/relaxng/tei_all.rng",
-      "version": "4.12.0",
-      "sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48"
-    },
-    "cff": {
-      "url": "https://citation-file-format.github.io/1.2.0/schema.json",
-      "version": "1.2.0",
-      "sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b"
-    }
-  },
-  "input_sha256": {
-    "book": "ccd8ac9703562b3817005a0e14fead9415953322b62e053217a94f450d2d6305",
-    "sources": "2fc0e2276172017c8b054cf43c5dfaa085a23482fffbc48aa75a7296074a688f"
-  },
-  "quality": "全10幅原印文字層完成來源先讀的獨立AI視讀、逐單位比較與回圖處置；保留3個疑字及2處刻點位置未解。未經人類雙校、專家審定或同儕審查。",
-  "human_double_proofreading": "not-performed",
-  "expert_certification": "not-performed",
-  "peer_review": "not-performed",
-  "doi_status_at_build": "reserved-unconfirmed-publication",
-  "runtime": {
-    "lxml": "6.1.3",
-    "PyYAML": "6.0.3",
-    "jsonschema": "4.26.0"
-  }
+  "quality": "沿用v0.2.0的原印文字層獨立AI視讀及回圖處置。v0.2.1依整理者定點回圖核定c03-L01一字，尚有2個疑字及2處刻點未解。未經人類全文雙校、專家審定或同儕審查。"
 }

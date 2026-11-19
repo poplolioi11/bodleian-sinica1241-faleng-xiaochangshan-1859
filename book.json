@@ -1,8 +1,8 @@
 {
   "dataset_id": "OX-SINICA1241",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "title": "論發冷小腸疝兩症",
-  "quality": "全10幅原印文字層完成來源先讀的獨立AI視讀、逐單位比較與回圖處置；保留3個疑字及2處刻點位置未解。未經人類雙校、專家審定或同儕審查。",
+  "quality": "沿用v0.2.0的原印文字層獨立AI視讀及回圖處置。v0.2.1依整理者定點回圖核定c03-L01一字，尚有2個疑字及2處刻點未解。未經人類全文雙校、專家審定或同儕審查。",
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/3a397e45-295b-4a9c-a8a5-1b2db808b2b0/",
     "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/3a397e45-295b-4a9c-a8a5-1b2db808b2b0.json",
@@ -21,7 +21,8 @@
     "private_witnesses_and_guard_audit_preserved": true,
     "independent_reader_model_disclosure": "工作以gpt-6-astra/ultra設定請求；讀者上下文僅能確認GPT-6（Codex），未取得更細的實際模型回報，故不以設定冒充實際型號證明。",
     "comparison_result": "39欄刻點專項回看中37已裁定、2已回圖未解、0尚未查；全部版式與原印層均有比較記錄。",
-    "controller_source_review": "主代理回看題名與刊字、宗教前言異讀、醫學正文實字分歧、量詞小註、所有新增葉碼及未解點形的來源；依圖採納修訂，保留無法定讀。"
+    "controller_source_review": "主代理回看題名與刊字、宗教前言異讀、醫學正文實字分歧、量詞小註、所有新增葉碼及未解點形的來源；依圖採納修訂，保留無法定讀。",
+    "targeted_author_review_v021": "The author reviewed the fixed source image for c03-L01, with assistance from Google Search AI Mode, and adopted 思 on glyph-structure grounds. Exact model not reported. No new independent full-text collation."
   },
   "position_convention": "疑字start/end為Unicode碼點0起算半開區間[start,end)；刻點缺席的疑讀用相鄰實字作錨，不代表該字未識。小註掛接的0起算字串邊界見CORRECTIONS.json。",
   "metrics": {
@@ -30,9 +31,9 @@
     "original_printed_faces": 12,
     "units": 116,
     "codepoints": 1689,
-    "uncertainty_records": 5,
-    "square_placeholders": 3,
-    "changed_or_added_units": 47
+    "uncertainty_records": 4,
+    "square_placeholders": 2,
+    "changed_or_added_units": 1
   },
   "pages": [
     {
@@ -112,7 +113,7 @@
           "layer": "original-print",
           "role": "preface",
           "side": "left",
-          "text": "嘗□天道福善禍淫、疾病死亡、所以報惡",
+          "text": "嘗思天道福善禍淫、疾病死亡、所以報惡",
           "bbox": null
         },
         {
@@ -189,21 +190,6 @@
         }
       ],
       "uncertainties": [
-        {
-          "id": "c03-v020-unc-1",
-          "unit_id": "c03-L01",
-          "start": 1,
-          "end": 2,
-          "surface": "□",
-          "candidates": [
-            "思",
-            "聞"
-          ],
-          "reason": "紙面剝落未恢復，hi-c03仍不能定內部筆畫；僅此一字待定。",
-          "cause": "source-illegible",
-          "extent": "known",
-          "note": "已回圖未解；單字或刻點位置已定位。"
-        },
         {
           "id": "c03-v020-point-01",
           "unit_id": "c03-L01",

@@ -7,16 +7,15 @@
         <author role="historical-author-attribution">Serica 書目歸於 J. G. Kerr（嘉約翰，1824–1901）；卷首未見作者署名。</author>
         <respStmt>
           <resp>資料整理與編碼</resp>
-          <name>poplolioi11</name>
+          <name ref="https://orcid.org/0009-0003-9738-6914">Chen-Yu Chu（曲宸宇）</name>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>0.2.0</edition>
+        <edition>0.2.1</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>poplolioi11</publisher>
         <idno type="dataset-id">OX-SINICA1241</idno>
-        <idno type="DOI">10.5281/zenodo.23636930</idno>
         <availability>
           <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
         </availability>
@@ -35,8 +34,8 @@
     <encodingDesc>
       <editorialDecl>
         <interpretation>
-          <p>品質狀態：全10幅原印文字層完成來源先讀的獨立AI視讀、逐單位比較與回圖處置；保留3個疑字及2處刻點位置未解。未經人類雙校、專家審定或同儕審查。。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
-          <p n="declared-methods">{"comparison_result": "39欄刻點專項回看中37已裁定、2已回圖未解、0尚未查；全部版式與原印層均有比較記錄。", "controller_source_review": "主代理回看題名與刊字、宗教前言異讀、醫學正文實字分歧、量詞小註、所有新增葉碼及未解點形的來源；依圖採納修訂，保留無法定讀。", "detailed_workflow_public": false, "expert_review": "not-run", "human_double_collation": "not-run", "independent_image_collation": "獨立Codex GPT-6工作先讀全部10幅固定影像，未見初錄；封存讀字後才比較全108初錄單位、15初錄疑讀及高風險項，並以同源4000px圖回看分歧。", "independent_reader_model_disclosure": "工作以gpt-6-astra/ultra設定請求；讀者上下文僅能確認GPT-6（Codex），未取得更細的實際模型回報，故不以設定冒充實際型號證明。", "initial_image_reading": "Gemini gemini-3.8-flash-high，兩個分開範圍的影像初錄工作；主代理全幅版式檢查及原印層範圍整理。", "peer_review": "not-run", "private_witnesses_and_guard_audit_preserved": true, "punctuation": "原刻點形以頓號編碼；不將數位標點形狀等同原刻點形。"}</p>
+          <p>品質狀態：沿用v0.2.0的原印文字層獨立AI視讀及回圖處置。v0.2.1依整理者定點回圖核定c03-L01一字，尚有2個疑字及2處刻點未解。未經人類全文雙校、專家審定或同儕審查。。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
+          <p n="declared-methods">{"comparison_result": "39欄刻點專項回看中37已裁定、2已回圖未解、0尚未查；全部版式與原印層均有比較記錄。", "controller_source_review": "主代理回看題名與刊字、宗教前言異讀、醫學正文實字分歧、量詞小註、所有新增葉碼及未解點形的來源；依圖採納修訂，保留無法定讀。", "detailed_workflow_public": false, "expert_review": "not-run", "human_double_collation": "not-run", "independent_image_collation": "獨立Codex GPT-6工作先讀全部10幅固定影像，未見初錄；封存讀字後才比較全108初錄單位、15初錄疑讀及高風險項，並以同源4000px圖回看分歧。", "independent_reader_model_disclosure": "工作以gpt-6-astra/ultra設定請求；讀者上下文僅能確認GPT-6（Codex），未取得更細的實際模型回報，故不以設定冒充實際型號證明。", "initial_image_reading": "Gemini gemini-3.8-flash-high，兩個分開範圍的影像初錄工作；主代理全幅版式檢查及原印層範圍整理。", "peer_review": "not-run", "private_witnesses_and_guard_audit_preserved": true, "punctuation": "原刻點形以頓號編碼；不將數位標點形狀等同原刻點形。", "targeted_author_review_v021": "The author reviewed the fixed source image for c03-L01, with assistance from Google Search AI Mode, and adopted 思 on glyph-structure grounds. Exact model not reported. No new independent full-text collation."}</p>
         </interpretation>
         <normalization>
           <p>保留固定JSON內每unit的精確字串及順序；原刻點號以頓號表示。Unicode字元不等同原形摹本。疑字座標以Unicode碼點0起半開區間表示，詳uncertainties.json。</p>
@@ -136,7 +135,7 @@
         <note type="layout">右面是封面字樣的反向透印，未見本面新印文字；右下館藏章排除。左面九個直欄為序文，外側版心可辨魚尾與葉碼一。按左面右至左逐欄錄。</note>
         <note type="layout-reviewed">true</note>
         <note type="layer-states">{"original-print": "reviewed-with-unresolved-readings"}</note>
-        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L01">嘗□天道福善禍淫、疾病死亡、所以報惡</ab>
+        <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L01">嘗思天道福善禍淫、疾病死亡、所以報惡</ab>
         <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L02">者也、初、天地闢時、亞當夏娃二人違</ab>
         <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L03">天父命、食禁果、罪惡由此始、厥後苗裔、因</ab>
         <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L04">有罪惡、既有罪惡、當受懲罰、　　天父特</ab>
@@ -146,7 +145,6 @@
         <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L08">由於罪惡、然罪惡之報、不徒在於今生、更</ab>
         <ab type="preface" n="left" facs="#surface-c03" xml:id="c03-L09">在於世界末日、故見人有禍難、在己貴以</ab>
         <ab type="folio" n="left" facs="#surface-c03" xml:id="c03-L-folio-v020">一</ab>
-        <note type="transcription-uncertainty" target="#c03-L01" corresp="uncertainties.json#c03-v020-unc-1" xml:id="c03-v020-unc-1">{"candidates": ["思", "聞"], "cause": "source-illegible", "end": 2, "extent": "known", "id": "c03-v020-unc-1", "note": "已回圖未解；單字或刻點位置已定位。", "reason": "紙面剝落未恢復，hi-c03仍不能定內部筆畫；僅此一字待定。", "start": 1, "surface": "□", "unit_id": "c03-L01"}</note>
         <note type="transcription-uncertainty" target="#c03-L01" corresp="uncertainties.json#c03-v020-point-01" xml:id="c03-v020-point-01">{"candidates": ["、", "無刻點"], "cause": "point-shape-unresolved", "end": 9, "extent": "known", "id": "c03-v020-point-01", "note": "已回圖未解；單字或刻點位置已定位。", "reason": "淫右下短黑痕緊接版框，高解析回圖仍不能確定獨立刻點或邊框黏墨；暫保留初錄刻點。", "start": 8, "surface": "、", "unit_id": "c03-L01"}</note>
       </div>
       <div type="source-image" n="pp. [4]-[5]" facs="#surface-c04" xml:id="c04">

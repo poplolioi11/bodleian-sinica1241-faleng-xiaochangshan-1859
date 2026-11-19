@@ -1,34 +1,33 @@
 cff-version: 1.2.0
 type: dataset
-message: 請引用實際使用的固定版本，並附書面定位與館方影像。 本版為AI獨立校讀／保留未解，未經人類雙校、專家審定或同儕審查。 歷史作者、館藏底本與本次整理應分開引用。
-title: "論發冷小腸疝兩症(1859;Bodleian Sinica 1241) / Lun fa leng xiao chang shan liang zheng [On ague and hernia]: Transcription dataset"
+message: 請引用實際使用的固定版本，並附來源圖及單位位置。
+title: '論發冷小腸疝兩症(1859;Bodleian Sinica 1241) / Lun fa leng xiao chang shan liang zheng
+  [On ague and hernia]: Transcription dataset'
 authors:
-  - family-names: Chu
-    given-names: Chen-Yu
-    orcid: https://orcid.org/0009-0003-9738-6914
-    website: https://github.com/poplolioi11
-version: 0.2.0
-url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859
-license-url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/v0.2.0/RIGHTS.md
-abstract: 依牛津大學 Bodleian Libraries 所藏 Sinica 1241，整理1859年博濟醫局刊本 《論發冷小腸疝兩症》。Serica
-  將作品歸於 J. G. Kerr（嘉約翰）。 v0.2.0 為 來源先讀的獨立AI校讀，涵蓋12個原印文字面與全篇宗教前言； 一幅疝帶線圖僅保留文字及描述，未重製幾何圖形。
-  提供 JSON、TXT、TEI XML、原頁定位及疑字，保留3個疑字及2處刻點未解。 原文不新增使用限制；具有著作權的自有說明採 CC BY 4.0。 館方掃描依其獨立條款，未收入公開包。
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.2.1
+url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/releases/tag/v0.2.1
+license-url: https://github.com/poplolioi11/bodleian-sinica1241-faleng-xiaochangshan-1859/blob/v0.2.1/RIGHTS.md
+abstract: 牛津博德利圖書館 Sinica 1241，1859 年博濟醫局《論發冷小腸疝兩症》轉錄，涵蓋十幅影像的十二個原印文字面。v0.2.1 依整理者定點回圖修訂一字。附
+  JSON、TXT、TEI、影像定位及疑讀；未經全文人工雙校或專家審定。
 keywords:
-- "digital humanities"
-- "history of medicine"
-- "論發冷小腸疝兩症"
-- "Sinica 1241"
-- "Chinese medical history"
-- "medical missions"
-- "hernia"
-- "J. G. Kerr"
-- "博濟醫局"
-- "TEI XML"
-- "ague"
-- "cinchona"
-- "Christianity in China"
-- "Qing dynasty"
-- "1859"
-- "醫學史"
-date-released: '2026-10-25'
-doi: 10.5281/zenodo.23636930
+- digital humanities
+- history of medicine
+- 論發冷小腸疝兩症
+- Sinica 1241
+- Chinese medical history
+- medical missions
+- hernia
+- J. G. Kerr
+- 博濟醫局
+- TEI XML
+- ague
+- cinchona
+- Christianity in China
+- Qing dynasty
+- '1859'
+- 醫學史
+date-released: '2026-11-19'
